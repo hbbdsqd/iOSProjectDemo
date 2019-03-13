@@ -32,7 +32,7 @@
 				<key>location</key>
 				<string>{-157.15234375, 9.07421875}</string>
 				<key>nodeID</key>
-				<string>6BF5CEB7-25FF-4FB9-A3AC-A74D6AD928AB</string>
+				<string>C7419521-926C-4EA7-A94A-C3A0ECA3B3B9</string>
 				<key>strokeColor</key>
 				<string>{0.965, 0.965, 0.965, 1.000}</string>
 				<key>strokeStyle</key>
@@ -55,7 +55,7 @@
 						<key>location</key>
 						<string>{184.84765625, -146.42578125}</string>
 						<key>nodeID</key>
-						<string>524143D5-E6C9-489D-9440-1D6A81049558</string>
+						<string>4F65A51A-4FBE-422E-970D-FAE17D2922A1</string>
 						<key>strokeColor</key>
 						<string>{0.689, 0.215, 0.952, 1.000}</string>
 						<key>strokeStyle</key>
@@ -78,7 +78,7 @@
 								<key>location</key>
 								<string>{335.84765625, -162.92578125}</string>
 								<key>nodeID</key>
-								<string>6799D15D-0452-4646-A242-0158BE71B7E6</string>
+								<string>641A8E4E-FEFB-4E98-866F-30B05D74CEBC</string>
 								<key>strokeColor</key>
 								<string>{0.689, 0.215, 0.952, 1.000}</string>
 								<key>strokeStyle</key>
@@ -121,7 +121,7 @@
 								<key>location</key>
 								<string>{335.84765625, -128.92578125}</string>
 								<key>nodeID</key>
-								<string>9F1D1D22-B832-4B8F-9657-807D489695D8</string>
+								<string>75FC43A7-32CF-40E9-B2F2-19EC88230C5D</string>
 								<key>strokeColor</key>
 								<string>{0.689, 0.215, 0.952, 1.000}</string>
 								<key>strokeStyle</key>
@@ -184,7 +184,7 @@
 						<key>location</key>
 						<string>{184.84765625, -10.92578125}</string>
 						<key>nodeID</key>
-						<string>5E6F26B0-4AAE-4105-9487-8DBA7FD726DF</string>
+						<string>325C8A80-B663-4518-A50C-83E624947FA5</string>
 						<key>strokeColor</key>
 						<string>{0.144, 0.670, 1.000, 1.000}</string>
 						<key>strokeStyle</key>
@@ -207,7 +207,7 @@
 								<key>location</key>
 								<string>{354.84765625, -95.92578125}</string>
 								<key>nodeID</key>
-								<string>17232C87-FCF0-46BB-8319-739C210F7BE3</string>
+								<string>106E4311-6093-471B-B1DF-F3E45230BA3C</string>
 								<key>strokeColor</key>
 								<string>{0.144, 0.670, 1.000, 1.000}</string>
 								<key>strokeStyle</key>
@@ -249,7 +249,7 @@
 								<key>location</key>
 								<string>{354.84765625, -61.92578125}</string>
 								<key>nodeID</key>
-								<string>3B98623F-38AA-4FB2-A0ED-263C5FB72071</string>
+								<string>2A9495D3-C7E2-4576-A248-BC2F2AA36740</string>
 								<key>strokeColor</key>
 								<string>{0.144, 0.670, 1.000, 1.000}</string>
 								<key>strokeStyle</key>
@@ -291,7 +291,7 @@
 								<key>location</key>
 								<string>{354.84765625, -27.92578125}</string>
 								<key>nodeID</key>
-								<string>8AE6ED0E-4611-4CF8-A8C8-E0F7E469254E</string>
+								<string>7E4C0F53-9EDA-4E82-A011-C821E60016D4</string>
 								<key>strokeColor</key>
 								<string>{0.144, 0.670, 1.000, 1.000}</string>
 								<key>strokeStyle</key>
@@ -333,7 +333,7 @@
 								<key>location</key>
 								<string>{354.84765625, 6.07421875}</string>
 								<key>nodeID</key>
-								<string>F812FE2F-ACE3-4D16-ACAE-A2819A081172</string>
+								<string>EDCE580B-F20E-49C4-9082-93D247173133</string>
 								<key>strokeColor</key>
 								<string>{0.144, 0.670, 1.000, 1.000}</string>
 								<key>strokeStyle</key>
@@ -375,7 +375,7 @@
 								<key>location</key>
 								<string>{354.84765625, 40.07421875}</string>
 								<key>nodeID</key>
-								<string>64B5AB66-6D0B-4B78-A38E-A48FD9303A11</string>
+								<string>C65848B6-CDAF-4C4D-912C-2DA2EB505622</string>
 								<key>strokeColor</key>
 								<string>{0.144, 0.670, 1.000, 1.000}</string>
 								<key>strokeStyle</key>
@@ -417,7 +417,7 @@
 								<key>location</key>
 								<string>{354.84765625, 74.07421875}</string>
 								<key>nodeID</key>
-								<string>BA760870-7FFC-473C-9D9B-9FB7FB314A23</string>
+								<string>C0E7985E-D913-4295-AAFD-19B99A303587</string>
 								<key>strokeColor</key>
 								<string>{0.144, 0.670, 1.000, 1.000}</string>
 								<key>strokeStyle</key>
@@ -480,7 +480,7 @@
 						<key>location</key>
 						<string>{184.84765625, 142.07421875}</string>
 						<key>nodeID</key>
-						<string>4DDC7A3F-E21F-41B6-BAEE-D5F8A9519C9B</string>
+						<string>FA8EE6BD-01CC-4D75-90A3-53E01BF5D4FF</string>
 						<key>strokeColor</key>
 						<string>{1.000, 0.742, 0.041, 1.000}</string>
 						<key>strokeStyle</key>
@@ -503,7 +503,7 @@
 								<key>location</key>
 								<string>{369.84765625, 108.07421875}</string>
 								<key>nodeID</key>
-								<string>D124E8AE-7C64-46BA-B5F3-C4DDAA7AD7D0</string>
+								<string>96FECAEA-5907-4630-B4E6-8A6EEFEF3213</string>
 								<key>strokeColor</key>
 								<string>{1.000, 0.742, 0.041, 1.000}</string>
 								<key>strokeStyle</key>
@@ -546,7 +546,7 @@
 								<key>location</key>
 								<string>{369.84765625, 142.07421875}</string>
 								<key>nodeID</key>
-								<string>AADC24AD-96EF-4401-80DE-96D3C1DA5CF2</string>
+								<string>7076C6FF-FDED-40C7-B0BF-DA5470378C4F</string>
 								<key>strokeColor</key>
 								<string>{1.000, 0.742, 0.041, 1.000}</string>
 								<key>strokeStyle</key>
@@ -589,7 +589,7 @@
 								<key>location</key>
 								<string>{369.84765625, 176.07421875}</string>
 								<key>nodeID</key>
-								<string>BD64A2FF-A993-4103-A2C1-A97AACAB7B18</string>
+								<string>75EF9E7D-E8AC-4BFA-A0C8-CA33DD254BBF</string>
 								<key>strokeColor</key>
 								<string>{1.000, 0.742, 0.041, 1.000}</string>
 								<key>strokeStyle</key>
@@ -653,7 +653,7 @@
 						<key>location</key>
 						<string>{184.84765625, 210.07421875}</string>
 						<key>nodeID</key>
-						<string>9239C61A-9750-474D-AD35-799F7DBF8044</string>
+						<string>B9CEC786-1260-4AEB-A2CA-CA7B8BA8AB7E</string>
 						<key>strokeColor</key>
 						<string>{0.136, 0.807, 0.880, 1.000}</string>
 						<key>strokeStyle</key>
