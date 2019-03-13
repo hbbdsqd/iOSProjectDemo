@@ -40,11 +40,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)creatLeftBtnOfCustomWithTitle:(NSString *)title;
 
+- (void)creatLeftBtnOfCustomWithTitle:(NSString *)title textColor:(UIColor *)textColor;
+
+- (void)creatLeftBtnOfCustomWithImage:(NSString *)imageName;
+
 - (void)creatRightBtnOfCustomWithTitle:(NSString *)title;
 
 - (void)creatRightBtnOfCustomWithTitle:(NSString *)title textColor:(UIColor *)textColor;
-
-- (void)creatLeftBtnOfCustomWithImage:(NSString *)imageName;
 
 - (void)creatRightBtnOfCustomWithImage:(NSString *)imageName;
 @end

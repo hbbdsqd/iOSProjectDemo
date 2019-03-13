@@ -102,6 +102,15 @@
 - (void)creatLeftBtnOfCustomWithTitle:(NSString *)title{
     self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithTitle:title style:UIBarButtonItemStylePlain target:self action:@selector(leftBtnClcik)];
 }
+- (void)creatLeftBtnOfCustomWithTitle:(NSString *)title textColor:(UIColor *)textColor{
+    UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
+    [btn setTitle:title forState:UIControlStateNormal];
+    [btn setTitleColor:textColor forState:UIControlStateNormal];
+    btn.titleLabel.font = [UIFont systemFontOfSize:16];
+    [btn sizeToFit];
+    [btn addTarget:self action:@selector(leftBtnClcik) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:btn];
+}
 - (void)leftBtnClcik{
     
 }
@@ -132,11 +141,11 @@
 
 
 - (void)creatLeftBtnOfCustomWithImage:(NSString *)imageName{
-    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:imageName] style:UIBarButtonItemStylePlain target:self action:@selector(leftBtnClcik)];
+    self.navigationItem.leftBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:imageName renderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(leftBtnClcik)];
 }
 
 - (void)creatRightBtnOfCustomWithImage:(NSString *)imageName{
-    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:imageName] style:UIBarButtonItemStylePlain target:self action:@selector(rightBtnClcik)];
+    self.navigationItem.rightBarButtonItem=[[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:imageName renderingMode:UIImageRenderingModeAlwaysOriginal] style:UIBarButtonItemStylePlain target:self action:@selector(rightBtnClcik)];
 }
 //设置导航栏左边按钮
 - (UIBarButtonItem *)leftMenuBarButtonItem {
