@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  QDBaseNavViewController.h
 //  iOSProject
 //
 //  Created by 苏秋东 on 2019/3/13.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface QDBaseNavViewController : UINavigationController
 
 @end
 
+NS_ASSUME_NONNULL_END

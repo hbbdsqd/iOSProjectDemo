@@ -7,16 +7,20 @@
 //
 
 #import "AppDelegate.h"
-
 @interface AppDelegate ()
-
+@property (nonatomic,strong) QDTabBarViewController *tabbarVC;
 @end
 
 @implementation AppDelegate
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    [self.window makeKeyAndVisible];
+    self.tabbarVC = [[QDTabBarViewController alloc]init];
+    [self.tabbarVC setupViewControllers];
+    self.window.rootViewController = self.tabbarVC;
     return YES;
 }
 

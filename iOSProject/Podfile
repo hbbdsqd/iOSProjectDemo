@@ -1,18 +1,19 @@
 platform :ios, '9.0'
 target "iOSProject" do
-    pod 'Masonry'
-    pod 'AFNetworking'
-    pod 'MBProgressHUD'
-    pod 'IQKeyboardManager'
-    pod 'SDWebImage'
-    pod 'MJExtension'
-    pod 'FMDB'
-    pod 'MJRefresh'
-    pod 'Reachability'
-    pod 'OpenUDID', '~> 1.0.0'
-    pod 'mob_sharesdk'
-    pod 'mob_sharesdk/ShareSDKUI'
-    pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+    pod 'Masonry' #约束
+    pod 'AFNetworking' #网络请求框架
+    pod 'MBProgressHUD' #弹出框
+    pod 'IQKeyboardManager' #键盘弹出
+    pod 'SDWebImage' #网络图片加载
+    pod 'MJExtension' #字典转模型
+    pod 'FMDB' #数据库
+    pod 'MJRefresh' #上拉刷新/下拉加载
+    pod 'Reachability' #网络状况请求
+    pod 'OpenUDID', '~> 1.0.0' #获取udid
+    pod 'mob_sharesdk' #mob分享
+    pod 'mob_sharesdk/ShareSDKUI'#mob分享
+    pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'#mob分享--微信
     pod 'BaiduMapKit' #百度地图SDK
-    pod 'MWPhotoBrowser'
+    pod 'MWPhotoBrowser' #图片加载
+    pod 'RDVTabBarController' #tabbar
 end

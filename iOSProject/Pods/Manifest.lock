@@ -41,6 +41,7 @@ PODS:
     - MBProgressHUD (~> 0.9)
     - "SDWebImage (!= 3.7.2, ~> 3.7)"
   - OpenUDID (1.0.0)
+  - RDVTabBarController (1.2.0)
   - Reachability (3.2)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
@@ -60,6 +61,7 @@ DEPENDENCIES:
   - mob_sharesdk/ShareSDKUI
   - MWPhotoBrowser
   - OpenUDID (~> 1.0.0)
+  - RDVTabBarController
   - Reachability
   - SDWebImage
 
@@ -78,6 +80,7 @@ SPEC REPOS:
     - MOBFoundation
     - MWPhotoBrowser
     - OpenUDID
+    - RDVTabBarController
     - Reachability
     - SDWebImage
 
@@ -95,9 +98,10 @@ SPEC CHECKSUMS:
   MOBFoundation: b5ff4038ddb9a0f06b685b86408f905a10aa147c
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  RDVTabBarController: b6d63a7fc49b00568ba07255c6171edc737ad833
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
 
-PODFILE CHECKSUM: 18634ff33344a9802d436cfe07717af719f7f6b8
+PODFILE CHECKSUM: 25c00058facb258517b2ecfbd28992241fb3d4b0
 
 COCOAPODS: 1.5.3
