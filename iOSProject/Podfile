@@ -1,3 +1,4 @@
+#1：cd 项目路径  2：vim Profile  3：pod install
 platform :ios, '9.0'
 target "iOSProject" do
     pod 'Masonry' #约束
