@@ -1,0 +1,18 @@
+platform :ios, '9.0'
+target "iOSProject" do
+    pod 'Masonry'
+    pod 'AFNetworking'
+    pod 'MBProgressHUD'
+    pod 'IQKeyboardManager'
+    pod 'SDWebImage'
+    pod 'MJExtension'
+    pod 'FMDB'
+    pod 'MJRefresh'
+    pod 'Reachability'
+    pod 'OpenUDID', '~> 1.0.0'
+    pod 'mob_sharesdk'
+    pod 'mob_sharesdk/ShareSDKUI'
+    pod 'mob_sharesdk/ShareSDKPlatforms/WeChat'
+    pod 'BaiduMapKit' #百度地图SDK
+    pod 'MWPhotoBrowser'
+end
