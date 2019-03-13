@@ -45,4 +45,13 @@
 #import "QDMessageViewController.h"
 #import "QDMineViewController.h"
 
+#pragma mark -------------分类
+#import "UIImage+QDExtension.h"
+#import "UIColor+QDExtension.h"
+#import "UIView+QDExtension.h"
+#import "NSString+QDExtension.h"
+
+#pragma mark ------------objective-c
+#import <objc/runtime.h>
+
 #endif /* PrefixHeader_pch */

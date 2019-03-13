@@ -24,6 +24,10 @@
 		7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD72239072E000C5D64 /* QDMineViewController.m */; };
 		7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD82239072E000C5D64 /* QDMineViewController.xib */; };
 		7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAE022390806000C5D64 /* QDTabBarViewController.m */; };
+		7EF6BAE72239212F000C5D64 /* UIImage+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAE62239212F000C5D64 /* UIImage+QDExtension.m */; };
+		7EF6BAEA223922AA000C5D64 /* UIColor+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAE9223922AA000C5D64 /* UIColor+QDExtension.m */; };
+		7EF6BAED22392501000C5D64 /* UIView+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAEC22392501000C5D64 /* UIView+QDExtension.m */; };
+		7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAEF223925E8000C5D64 /* NSString+QDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +82,14 @@
 		7EF6BAD82239072E000C5D64 /* QDMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDMineViewController.xib; sourceTree = "<group>"; };
 		7EF6BADF22390806000C5D64 /* QDTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDTabBarViewController.h; sourceTree = "<group>"; };
 		7EF6BAE022390806000C5D64 /* QDTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDTabBarViewController.m; sourceTree = "<group>"; };
+		7EF6BAE52239212F000C5D64 /* UIImage+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BAE62239212F000C5D64 /* UIImage+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+QDExtension.m"; sourceTree = "<group>"; };
+		7EF6BAE8223922AA000C5D64 /* UIColor+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BAE9223922AA000C5D64 /* UIColor+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+QDExtension.m"; sourceTree = "<group>"; };
+		7EF6BAEB22392501000C5D64 /* UIView+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BAEC22392501000C5D64 /* UIView+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QDExtension.m"; sourceTree = "<group>"; };
+		7EF6BAEE223925E8000C5D64 /* NSString+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BAEF223925E8000C5D64 /* NSString+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QDExtension.m"; sourceTree = "<group>"; };
 		8F0AA7ED93417E5E07455788 /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -230,6 +242,8 @@
 		7EF6BABD2238FEF4000C5D64 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7EF6BAE422392035000C5D64 /* UIKit */,
+				7EF6BAE322392021000C5D64 /* Foundation */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -313,6 +327,28 @@
 			children = (
 			);
 			path = Vender;
+			sourceTree = "<group>";
+		};
+		7EF6BAE322392021000C5D64 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				7EF6BAEE223925E8000C5D64 /* NSString+QDExtension.h */,
+				7EF6BAEF223925E8000C5D64 /* NSString+QDExtension.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		7EF6BAE422392035000C5D64 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7EF6BAE52239212F000C5D64 /* UIImage+QDExtension.h */,
+				7EF6BAE62239212F000C5D64 /* UIImage+QDExtension.m */,
+				7EF6BAE8223922AA000C5D64 /* UIColor+QDExtension.h */,
+				7EF6BAE9223922AA000C5D64 /* UIColor+QDExtension.m */,
+				7EF6BAEB22392501000C5D64 /* UIView+QDExtension.h */,
+				7EF6BAEC22392501000C5D64 /* UIView+QDExtension.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 		D8DBA09FAF81D5A74A9EC66E /* Pods */ = {
@@ -517,11 +553,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */,
+				7EF6BAED22392501000C5D64 /* UIView+QDExtension.m in Sources */,
 				7EF6BA942238F44F000C5D64 /* main.m in Sources */,
 				7EF6BAC8223906CB000C5D64 /* QDBaseViewController.m in Sources */,
 				7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */,
 				7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */,
+				7EF6BAEA223922AA000C5D64 /* UIColor+QDExtension.m in Sources */,
 				7EF6BAD42239071F000C5D64 /* QDMessageViewController.m in Sources */,
+				7EF6BAE72239212F000C5D64 /* UIImage+QDExtension.m in Sources */,
+				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
 				7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */,
 				7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */,
