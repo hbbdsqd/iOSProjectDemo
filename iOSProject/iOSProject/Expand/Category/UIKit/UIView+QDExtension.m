@@ -180,4 +180,27 @@ static const void *kLoadingViewKey = @"LoadingViewKey";
     UIView *loadingView = objc_getAssociatedObject(self, kLoadingViewKey);
     [loadingView removeFromSuperview];
 }
+
+
+- (instancetype)cornerAllCornersWithCornerRadius:(CGFloat)cornerRadius {
+    
+    CAShapeLayer *shapeLayer = [CAShapeLayer layer];
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:UIRectCornerAllCorners cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
+    shapeLayer.path = path.CGPath;
+    self.layer.mask = shapeLayer;
+    self.layer.contentsScale = [[UIScreen mainScreen] scale];
+    return self;
+}
+
+
+- (instancetype)cornerByRoundingCorners:(UIRectCorner)corners cornerRadius:(CGFloat)cornerRadius{
+    
+    UIBezierPath *maskPath = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
+    CAShapeLayer *maskLayer = [[CAShapeLayer alloc] init];
+    maskLayer.frame = self.bounds;
+    maskLayer.path = maskPath.CGPath;
+    self.layer.mask = maskLayer;
+    self.layer.contentsScale = [[UIScreen mainScreen] scale];
+    return self;
+}
 @end

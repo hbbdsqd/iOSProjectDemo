@@ -108,6 +108,20 @@ NS_ASSUME_NONNULL_BEGIN
 - (void) addLoadingView;
 - (void) addLoadingViewWithText:(NSString *)text;
 - (void) removeLoadingView;
+
+/**
+ *  给view切圆角
+ *  corners : 哪个角
+ *  cornerRadii : 圆角size
+ */
+- (instancetype)cornerByRoundingCorners:(UIRectCorner)corners cornerRadius:(CGFloat)cornerRadius;
+/**
+ *  给view所有角切圆角
+ *  cornerRadii : 圆角size
+ */
+- (instancetype)cornerAllCornersWithCornerRadius:(CGFloat)cornerRadius;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -31,6 +31,9 @@
 		7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAF222394BFE000C5D64 /* CommonTools.m */; };
 		7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAF7223952EE000C5D64 /* MBProgressHUD+QDExtension.m */; };
 		7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAFA223A802B000C5D64 /* NSDictionary+QDExtension.m */; };
+		7EF6BAFE223A882D000C5D64 /* UITextView+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAFD223A882D000C5D64 /* UITextView+QDExtension.m */; };
+		7EF6BB01223A8A48000C5D64 /* UITextField+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BB00223A8A48000C5D64 /* UITextField+QDExtension.m */; };
+		7EF6BB04223A8AD6000C5D64 /* UIButton+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BB03223A8AD6000C5D64 /* UIButton+QDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +102,12 @@
 		7EF6BAF7223952EE000C5D64 /* MBProgressHUD+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+QDExtension.m"; sourceTree = "<group>"; };
 		7EF6BAF9223A802B000C5D64 /* NSDictionary+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QDExtension.h"; sourceTree = "<group>"; };
 		7EF6BAFA223A802B000C5D64 /* NSDictionary+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QDExtension.m"; sourceTree = "<group>"; };
+		7EF6BAFC223A882D000C5D64 /* UITextView+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextView+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BAFD223A882D000C5D64 /* UITextView+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextView+QDExtension.m"; sourceTree = "<group>"; };
+		7EF6BAFF223A8A48000C5D64 /* UITextField+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BB00223A8A48000C5D64 /* UITextField+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+QDExtension.m"; sourceTree = "<group>"; };
+		7EF6BB02223A8AD6000C5D64 /* UIButton+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BB03223A8AD6000C5D64 /* UIButton+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+QDExtension.m"; sourceTree = "<group>"; };
 		8F0AA7ED93417E5E07455788 /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -361,6 +370,12 @@
 				7EF6BAE9223922AA000C5D64 /* UIColor+QDExtension.m */,
 				7EF6BAEB22392501000C5D64 /* UIView+QDExtension.h */,
 				7EF6BAEC22392501000C5D64 /* UIView+QDExtension.m */,
+				7EF6BAFC223A882D000C5D64 /* UITextView+QDExtension.h */,
+				7EF6BAFD223A882D000C5D64 /* UITextView+QDExtension.m */,
+				7EF6BAFF223A8A48000C5D64 /* UITextField+QDExtension.h */,
+				7EF6BB00223A8A48000C5D64 /* UITextField+QDExtension.m */,
+				7EF6BB02223A8AD6000C5D64 /* UIButton+QDExtension.h */,
+				7EF6BB03223A8AD6000C5D64 /* UIButton+QDExtension.m */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -589,8 +604,11 @@
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
 				7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */,
 				7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */,
+				7EF6BB01223A8A48000C5D64 /* UITextField+QDExtension.m in Sources */,
 				7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */,
+				7EF6BAFE223A882D000C5D64 /* UITextView+QDExtension.m in Sources */,
 				7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */,
+				7EF6BB04223A8AD6000C5D64 /* UIButton+QDExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

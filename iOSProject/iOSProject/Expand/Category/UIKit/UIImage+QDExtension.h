@@ -12,13 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UIImage (QDExtension)
 
-/**
 
++(UIImage *)imageWithName:(NSString *)name;
 
- @param name <#name description#>
- @param renderingMode <#renderingMode description#>
- @return <#return value description#>
- */
 + (UIImage *)imageNamed:(NSString *)name renderingMode:(UIImageRenderingMode)renderingMode;
 @end
 

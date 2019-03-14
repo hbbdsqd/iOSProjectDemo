@@ -52,6 +52,9 @@
 #import "UIView+QDExtension.h"
 #import "NSString+QDExtension.h"
 #import "MBProgressHUD+QDExtension.h"
+#import "UIButton+QDExtension.h"
+#import "NSDictionary+QDExtension.h"
+#import "UITextField+QDExtension.h"
 
 #pragma mark ------------objective-c
 #import <objc/runtime.h>

@@ -17,7 +17,7 @@
 
 #pragma mark - 色值
 #define QDGetColor(colorStr) [UIColor colorWithHexString:colorStr]
-
+#define QDColorBtnDisSelectedColor [UIColor colorWithHexString:@"D2D5DB"]
 #define QDColorMain QDGetColor(@"57818B")
 #define RGBA(r,g,b,a) [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)

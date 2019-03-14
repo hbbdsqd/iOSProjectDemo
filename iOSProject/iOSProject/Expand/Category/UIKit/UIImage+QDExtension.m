@@ -9,6 +9,16 @@
 #import "UIImage+QDExtension.h"
 
 @implementation UIImage (QDExtension)
+
++ (UIImage *)imageWithName:(NSString *)name
+{
+    UIImage *image = nil;
+    if (image == nil) {
+        image = [UIImage imageNamed:name];
+    }
+    return image;
+}
+
 + (UIImage *)imageNamed:(NSString *)name renderingMode:(UIImageRenderingMode)renderingMode {
     UIImage *image = [UIImage imageNamed:name];
     image = [image imageWithRenderingMode:renderingMode];
