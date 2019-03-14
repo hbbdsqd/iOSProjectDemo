@@ -26,7 +26,21 @@
     self.navigationController.navigationBar.translucent = NO;
     self.page_num = 1;
     self.page_size = 20;
-} 
+}
+
+- (void)addRefreshWithTableView:(UITableView *)tableView{
+    tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(headerRefresh)];
+    tableView.mj_footer = [MJRefreshFooter footerWithRefreshingTarget:self refreshingAction:@selector(footerRefresh)];
+    [tableView.mj_header beginRefreshing];
+}
+
+- (void)headerRefresh{
+    
+}
+
+- (void)footerRefresh{
+    
+}
 
 - (void)setPopGestureEnable:(BOOL)popGestureEnable{
     if (!popGestureEnable) {

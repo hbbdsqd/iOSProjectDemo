@@ -24,8 +24,14 @@ NS_ASSUME_NONNULL_BEGIN
 //公共字典
 @property (nonatomic,strong) NSMutableDictionary *dataDict;
 
+#pragma mark ---------加载刷新控件
+- (void)addRefreshWithTableView:(UITableView *)tableView;
+- (void)headerRefresh;
+- (void)footerRefresh;
 
 - (UIBarButtonItem*)leftMenuBarButtonItem;
+
+#pragma mark ---------加载无数据视图到指定view
 /**
  *  在指定view显示搜索没有数据的视图
  */
@@ -36,8 +42,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)hideNoDataViewFromView:(UIView*)superview;
 
+- (void)tapRefresh;
+
 - (void)backPopViewcontroller:(id)sender;
 
+
+#pragma mark ---------创建导航条左侧和右侧按钮根据文字和图片可自定义
 - (void)creatLeftBtnOfCustomWithTitle:(NSString *)title;
 
 - (void)creatLeftBtnOfCustomWithTitle:(NSString *)title textColor:(UIColor *)textColor;

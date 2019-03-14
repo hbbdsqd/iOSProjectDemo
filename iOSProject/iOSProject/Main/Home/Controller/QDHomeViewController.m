@@ -21,7 +21,14 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
     _titleArray = @[@"MBProgressHUD展示消息无图标",@"MBProgressHUD展展示成功消息",@"MBProgressHUD展示失败消息",@"MBProgressHUD展示警告消息",@"MBProgressHUD展示loading"];
-    
+    [self addRefreshWithTableView:self.tableView];
+}
+- (void)headerRefresh{
+    [self.tableView.mj_header endRefreshing];
+}
+
+- (void)footerRefresh{
+    [self.tableView.mj_footer endRefreshingWithNoMoreData];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
