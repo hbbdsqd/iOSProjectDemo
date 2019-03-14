@@ -1,8 +1,8 @@
 //
-//  Commtools.h
+//  NSDictionary+QDExtension.h
 //  iOSProject
 //
-//  Created by 苏秋东 on 2019/3/13.
+//  Created by 苏秋东 on 2019/3/14.
 //  Copyright © 2019 苏秋东. All rights reserved.
 //
 
@@ -10,11 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CommonTools : NSObject
-
-
-+ (BOOL)isBlankString:(NSString *)string;
-
+@interface NSDictionary (QDExtension)
+- (NSString *)getValueForKey:(NSString *)key;
 @end
 
 NS_ASSUME_NONNULL_END

@@ -30,6 +30,7 @@
 		7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAEF223925E8000C5D64 /* NSString+QDExtension.m */; };
 		7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAF222394BFE000C5D64 /* CommonTools.m */; };
 		7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAF7223952EE000C5D64 /* MBProgressHUD+QDExtension.m */; };
+		7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAFA223A802B000C5D64 /* NSDictionary+QDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +97,8 @@
 		7EF6BAF222394BFE000C5D64 /* CommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
 		7EF6BAF6223952EE000C5D64 /* MBProgressHUD+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+QDExtension.h"; sourceTree = "<group>"; };
 		7EF6BAF7223952EE000C5D64 /* MBProgressHUD+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+QDExtension.m"; sourceTree = "<group>"; };
+		7EF6BAF9223A802B000C5D64 /* NSDictionary+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BAFA223A802B000C5D64 /* NSDictionary+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+QDExtension.m"; sourceTree = "<group>"; };
 		8F0AA7ED93417E5E07455788 /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -343,6 +346,8 @@
 			children = (
 				7EF6BAEE223925E8000C5D64 /* NSString+QDExtension.h */,
 				7EF6BAEF223925E8000C5D64 /* NSString+QDExtension.m */,
+				7EF6BAF9223A802B000C5D64 /* NSDictionary+QDExtension.h */,
+				7EF6BAFA223A802B000C5D64 /* NSDictionary+QDExtension.m */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -579,6 +584,7 @@
 				7EF6BAEA223922AA000C5D64 /* UIColor+QDExtension.m in Sources */,
 				7EF6BAD42239071F000C5D64 /* QDMessageViewController.m in Sources */,
 				7EF6BAE72239212F000C5D64 /* UIImage+QDExtension.m in Sources */,
+				7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */,
 				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
 				7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */,

@@ -44,6 +44,7 @@
 #import "QDHomeViewController.h"
 #import "QDMessageViewController.h"
 #import "QDMineViewController.h"
+#import "CommonTools.h"
 
 #pragma mark -------------分类
 #import "UIImage+QDExtension.h"
