@@ -50,6 +50,7 @@
 #import "UIColor+QDExtension.h"
 #import "UIView+QDExtension.h"
 #import "NSString+QDExtension.h"
+#import "MBProgressHUD+QDExtension.h"
 
 #pragma mark ------------objective-c
 #import <objc/runtime.h>

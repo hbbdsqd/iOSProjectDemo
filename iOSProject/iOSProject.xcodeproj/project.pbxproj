@@ -28,6 +28,8 @@
 		7EF6BAEA223922AA000C5D64 /* UIColor+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAE9223922AA000C5D64 /* UIColor+QDExtension.m */; };
 		7EF6BAED22392501000C5D64 /* UIView+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAEC22392501000C5D64 /* UIView+QDExtension.m */; };
 		7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAEF223925E8000C5D64 /* NSString+QDExtension.m */; };
+		7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAF222394BFE000C5D64 /* CommonTools.m */; };
+		7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAF7223952EE000C5D64 /* MBProgressHUD+QDExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,10 @@
 		7EF6BAEC22392501000C5D64 /* UIView+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+QDExtension.m"; sourceTree = "<group>"; };
 		7EF6BAEE223925E8000C5D64 /* NSString+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+QDExtension.h"; sourceTree = "<group>"; };
 		7EF6BAEF223925E8000C5D64 /* NSString+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+QDExtension.m"; sourceTree = "<group>"; };
+		7EF6BAF122394BFE000C5D64 /* CommonTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonTools.h; sourceTree = "<group>"; };
+		7EF6BAF222394BFE000C5D64 /* CommonTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonTools.m; sourceTree = "<group>"; };
+		7EF6BAF6223952EE000C5D64 /* MBProgressHUD+QDExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+QDExtension.h"; sourceTree = "<group>"; };
+		7EF6BAF7223952EE000C5D64 /* MBProgressHUD+QDExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+QDExtension.m"; sourceTree = "<group>"; };
 		8F0AA7ED93417E5E07455788 /* libPods-iOSProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -228,6 +234,8 @@
 		7EF6BABB2238FEE7000C5D64 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				7EF6BAF122394BFE000C5D64 /* CommonTools.h */,
+				7EF6BAF222394BFE000C5D64 /* CommonTools.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -242,6 +250,7 @@
 		7EF6BABD2238FEF4000C5D64 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				7EF6BAF5223952AC000C5D64 /* Vender */,
 				7EF6BAE422392035000C5D64 /* UIKit */,
 				7EF6BAE322392021000C5D64 /* Foundation */,
 			);
@@ -349,6 +358,15 @@
 				7EF6BAEC22392501000C5D64 /* UIView+QDExtension.m */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		7EF6BAF5223952AC000C5D64 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				7EF6BAF6223952EE000C5D64 /* MBProgressHUD+QDExtension.h */,
+				7EF6BAF7223952EE000C5D64 /* MBProgressHUD+QDExtension.m */,
+			);
+			path = Vender;
 			sourceTree = "<group>";
 		};
 		D8DBA09FAF81D5A74A9EC66E /* Pods */ = {
@@ -563,8 +581,10 @@
 				7EF6BAE72239212F000C5D64 /* UIImage+QDExtension.m in Sources */,
 				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
+				7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */,
 				7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */,
 				7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */,
+				7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

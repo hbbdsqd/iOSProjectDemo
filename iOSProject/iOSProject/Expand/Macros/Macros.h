@@ -10,8 +10,11 @@
 #define Macros_h
 
 #pragma mark --------字体
+#define QDGetFont(fontSize) [UIFont systemFontOfSize:fontSize]
 
+#pragma mark --------版本
 
+#pragma mark --------色值
 #define QDGetColor(colorStr) [UIColor colorWithHexString:colorStr]
 
 #define QDColorMain QDGetColor(@"57818B")
@@ -19,13 +22,15 @@
 #define RGB(r,g,b) RGBA(r,g,b,1.0f)
 #define HEXCOLOR(hex) [UIColor colorWithRed:((float)((hex & 0xFF0000) >> 16)) / 255.0 green:((float)((hex & 0xFF00) >> 8)) / 255.0 blue:((float)(hex & 0xFF)) / 255.0 alpha:1]
 
-
-
-#pragma mark --------版本
-
-#pragma mark --------色值
-
 #pragma mark --------快捷方式
 #define QDGetImage(imageName) [UIImage imageNamed:imageName renderingMode:UIImageRenderingModeAlwaysOriginal]
+
+#pragma mark --------MBProgressHUD
+#define QDShowMessage(message) [LYMBProgressHUD showMessage:message];
+#define QDShowError(error) [LYMBProgressHUD showError:error];
+#define QDShowSuccess(success) [LYMBProgressHUD showSuccess:success];
+#define QDShowWarn(warn) [LYMBProgressHUD showWarning:warn];
+#define QDShowLoading [LYMBProgressHUD showActivityMessage:@"加载中..."];
+#define QDHideHud [LYMBProgressHUD hideHUD];
 
 #endif /* Macros_h */
