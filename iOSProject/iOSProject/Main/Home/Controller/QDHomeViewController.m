@@ -21,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
-    _titleArray = @[@"MBProgressHUD展示消息无图标",@"MBProgressHUD展展示成功消息",@"MBProgressHUD展示失败消息",@"MBProgressHUD展示警告消息",@"MBProgressHUD展示loading",@"七牛--m3u8",@"七牛--mp4",@"七牛--flv",@"IJK--m3u8",@"IJK--mp4",@"IJK--flv",@"IJK--抖音滚动",@"IJK--自定义封装"];
+    _titleArray = @[@"MBProgressHUD展示消息无图标",@"MBProgressHUD展展示成功消息",@"MBProgressHUD展示失败消息",@"MBProgressHUD展示警告消息",@"MBProgressHUD展示loading",@"七牛--m3u8",@"七牛--mp4",@"七牛--flv",@"IJK--m3u8",@"IJK--mp4",@"IJK--flv",@"IJK--抖音滚动"];
     [self addRefreshWithTableView:self.tableView];
 }
 - (void)headerRefresh{
