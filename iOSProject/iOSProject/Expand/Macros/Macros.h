@@ -97,4 +97,25 @@
 //Library/Caches 文件路径
 #define PCBFilePath ([[NSFileManager defaultManager] URLForDirectory:NSCachesDirectory inDomain:NSUserDomainMask appropriateForURL:nil create:YES error:nil])
 
+
+#pragma mark - 网络相关的宏
+#define TIMEOUT_INTERVAL 30 //网络请求超时时间
+#ifndef _GTMDevLog
+
+#ifdef DEBUG
+#define baseURL @""
+#else
+#define baseURL @""
+#endif
+
+#endif
+
+
+
+#define NETReturnErrorCode 89999 //服务器报错的
+#define NETWorkErrorCode 90000 //手机显示无网络
+#define WebWorkErrorString @"服务器累了，暂时无法提供功能"
+#define NETWorkErrorString @"网络连接失败，请检查您的网络"
+#define PAGE_NUM 20 //分页请求的页数
+
 #endif /* Macros_h */

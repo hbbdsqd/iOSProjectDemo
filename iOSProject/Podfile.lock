@@ -19,6 +19,7 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - IJKMediaFramework (0.1.2)
   - IQKeyboardManager (6.2.0)
   - Masonry (1.1.0)
   - MBProgressHUD (0.9.2)
@@ -41,11 +42,24 @@ PODS:
     - MBProgressHUD (~> 0.9)
     - "SDWebImage (!= 3.7.2, ~> 3.7)"
   - OpenUDID (1.0.0)
+  - PLPlayerKit (3.4.1):
+    - PLPlayerKit/iphoneos (= 3.4.1)
+  - PLPlayerKit/iphoneos (3.4.1)
   - RDVTabBarController (1.2.0)
   - Reachability (3.2)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - ZFPlayer (3.2.6):
+    - ZFPlayer/Core (= 3.2.6)
+  - ZFPlayer/AVPlayer (3.2.6):
+    - ZFPlayer/Core
+  - ZFPlayer/ControlView (3.2.6):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (3.2.6)
+  - ZFPlayer/ijkplayer (3.2.6):
+    - IJKMediaFramework
+    - ZFPlayer/Core
 
 DEPENDENCIES:
   - AFNetworking
@@ -61,9 +75,14 @@ DEPENDENCIES:
   - mob_sharesdk/ShareSDKUI
   - MWPhotoBrowser
   - OpenUDID (~> 1.0.0)
+  - PLPlayerKit
   - RDVTabBarController
   - Reachability
   - SDWebImage
+  - ZFPlayer
+  - ZFPlayer/AVPlayer
+  - ZFPlayer/ControlView
+  - ZFPlayer/ijkplayer
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -71,6 +90,7 @@ SPEC REPOS:
     - BaiduMapKit
     - DACircularProgress
     - FMDB
+    - IJKMediaFramework
     - IQKeyboardManager
     - Masonry
     - MBProgressHUD
@@ -80,15 +100,18 @@ SPEC REPOS:
     - MOBFoundation
     - MWPhotoBrowser
     - OpenUDID
+    - PLPlayerKit
     - RDVTabBarController
     - Reachability
     - SDWebImage
+    - ZFPlayer
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   BaiduMapKit: 63575d9236b4112c4ff76391df637f2a6dc1ada8
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  IJKMediaFramework: a1df7357a01a11e65568b8d6cd16ca270be01034
   IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
@@ -98,10 +121,12 @@ SPEC CHECKSUMS:
   MOBFoundation: b5ff4038ddb9a0f06b685b86408f905a10aa147c
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
+  PLPlayerKit: ebec9d70b66a95d1770b2dc5107fe2a469454a28
   RDVTabBarController: b6d63a7fc49b00568ba07255c6171edc737ad833
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  ZFPlayer: 66c58fe815b21e309d11f8c03114e9028a2212f4
 
-PODFILE CHECKSUM: 25c00058facb258517b2ecfbd28992241fb3d4b0
+PODFILE CHECKSUM: d09bce1803bd3aea0ac69b38aab3743d1ab64a56
 
 COCOAPODS: 1.5.3

@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 @interface AppDelegate ()
 @property (nonatomic,strong) QDTabBarViewController *tabbarVC;
+
 @end
 
 @implementation AppDelegate
@@ -25,6 +26,60 @@
     [self.tabbarVC setupViewControllers];
     self.window.rootViewController = self.tabbarVC;
     return YES;
+}
+#pragma mark- 网络状态的改变
+- (void)reachabilityChanged:(NSNotification*)note
+{
+    Reachability* preachability = [note object];
+    NSParameterAssert([preachability isKindOfClass:[Reachability class]]);
+    //    NSString *pStr_3G =@"当前网络为2G或3G";
+    //    NSString *pStr_WiFi =@"当前网络为Wi-Fi";
+    //    //NSString *pStr_WLAN =@"当前网络为WLAN";
+    //    NSString *pStr_NO = @"当前网络已经断开";
+    switch ([preachability currentReachabilityStatus]) {
+        case NotReachable:
+            //            [self showAboveView];
+            break;
+        case ReachableViaWiFi:
+            self.aboveView.hidden = YES;
+            break;
+        case ReachableViaWWAN:
+            self.aboveView.hidden = YES;
+            break;
+            //   case ReachableViaWWAN:
+            //       [self alertShow:pStr_WLAN];
+            //
+        default:
+            break;
+    }
+    self.currentNetworkState = [preachability currentReachabilityStatus];
+    if (self.currentNetworkStateBlock) {
+        self.currentNetworkStateBlock([preachability currentReachabilityStatus]);
+    }
+}
+
+- (NetworkStatus)currentNetworkState
+{
+    NetworkStatus netStatus = [_internetReachability currentReachabilityStatus];
+    return netStatus;
+}
+
+- (void)showAboveView
+{
+    if (_aboveView == nil) {
+        _aboveView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, QDCScreen_Width, QDScreen_Height)];
+        UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, QDScreen_Height / 2 - 30, QDCScreen_Width, 30)];
+        [_aboveView addSubview:label];
+        _aboveView.backgroundColor = [UIColor whiteColor];
+        label.textAlignment = NSTextAlignmentCenter;
+        label.text = @"无网络，无法使用";
+        label.textColor = [UIColor blackColor];
+    }
+    
+    UIWindow* window = [[UIApplication sharedApplication] keyWindow];
+    _aboveView.hidden = NO;
+    [window addSubview:_aboveView];
+    [window bringSubviewToFront:_aboveView];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
