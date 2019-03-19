@@ -3,6 +3,7 @@
 # 创建项目
 ## 添加CocoaPods
 1：cd 项目路径  2：vim Profile  3：pod install
+注意：在xgithub上的版本 我忽略了Pods文件夹，如果使用，请自行pod install安装
 ## 创建项目结构
 ### Main
 主要的业务逻辑存放代码位置
