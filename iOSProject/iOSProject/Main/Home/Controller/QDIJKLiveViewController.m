@@ -8,9 +8,7 @@
 
 #import "QDIJKLiveViewController.h"
 
-#import <ZFPlayer/ZFPlayer.h>
-#import <ZFPlayer/ZFPlayerControlView.h>
-#import <ZFPlayer/ZFIJKPlayerManager.h>
+
 
 
 @interface QDIJKLiveViewController ()

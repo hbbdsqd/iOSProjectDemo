@@ -23,6 +23,8 @@
 		7E6779BC223F9543008F3334 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779BB223F9543008F3334 /* libz.tbd */; };
 		7E6779C7223FA4C6008F3334 /* QDIJKLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */; };
 		7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */; };
+		7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */; };
+		7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */; };
 		7EAE903C223F415400F86725 /* QDLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE903A223F415400F86725 /* QDLiveViewController.m */; };
 		7EAE903D223F415400F86725 /* QDLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAE903B223F415400F86725 /* QDLiveViewController.xib */; };
 		7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA822238F44E000C5D64 /* AppDelegate.m */; };
@@ -92,6 +94,9 @@
 		7E6779C4223FA4C6008F3334 /* QDIJKLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDIJKLiveViewController.h; sourceTree = "<group>"; };
 		7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDIJKLiveViewController.m; sourceTree = "<group>"; };
 		7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDIJKLiveViewController.xib; sourceTree = "<group>"; };
+		7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDAgoreLiveViewController.h; sourceTree = "<group>"; };
+		7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDAgoreLiveViewController.m; sourceTree = "<group>"; };
+		7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDAgoreLiveViewController.xib; sourceTree = "<group>"; };
 		7EAE9039223F415400F86725 /* QDLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLiveViewController.h; sourceTree = "<group>"; };
 		7EAE903A223F415400F86725 /* QDLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLiveViewController.m; sourceTree = "<group>"; };
 		7EAE903B223F415400F86725 /* QDLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDLiveViewController.xib; sourceTree = "<group>"; };
@@ -196,6 +201,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E4988212241DAE900FC87A0 /* QDCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				7EF6BB05223B4FD9000C5D64 /* QDCountDownButton.h */,
+				7EF6BB06223B4FD9000C5D64 /* QDCountDownButton.m */,
+			);
+			path = QDCountDownButton;
+			sourceTree = "<group>";
+		};
 		7EF6BA752238F44E000C5D64 = {
 			isa = PBXGroup;
 			children = (
@@ -223,7 +237,7 @@
 			children = (
 				7EF6BAB62238FCEA000C5D64 /* Main */,
 				7EF6BAB72238FD09000C5D64 /* Expand */,
-				7EF6BAE22239086C000C5D64 /* Vender */,
+				7EF6BAE22239086C000C5D64 /* Module */,
 				7EF6BAB82238FD16000C5D64 /* Resource */,
 			);
 			path = iOSProject;
@@ -409,17 +423,19 @@
 				7E6779C4223FA4C6008F3334 /* QDIJKLiveViewController.h */,
 				7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */,
 				7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */,
+				7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */,
+				7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */,
+				7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		7EF6BAE22239086C000C5D64 /* Vender */ = {
+		7EF6BAE22239086C000C5D64 /* Module */ = {
 			isa = PBXGroup;
 			children = (
-				7EF6BB05223B4FD9000C5D64 /* QDCountDownButton.h */,
-				7EF6BB06223B4FD9000C5D64 /* QDCountDownButton.m */,
+				7E4988212241DAE900FC87A0 /* QDCountDownButton */,
 			);
-			path = Vender;
+			path = Module;
 			sourceTree = "<group>";
 		};
 		7EF6BAE322392021000C5D64 /* Foundation */ = {
@@ -603,6 +619,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */,
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
 				7EF6BAD52239071F000C5D64 /* QDMessageViewController.xib in Resources */,
@@ -659,6 +676,7 @@
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
+				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
 				"${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle",
 				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required/ShareSDK.bundle",
 				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional/ShareSDKUI.bundle",
@@ -669,6 +687,7 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
@@ -711,6 +730,7 @@
 				7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */,
 				7E6779C7223FA4C6008F3334 /* QDIJKLiveViewController.m in Sources */,
 				7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */,
+				7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */,
 				7EF6BAEA223922AA000C5D64 /* UIColor+QDExtension.m in Sources */,
 				7EF6BAD42239071F000C5D64 /* QDMessageViewController.m in Sources */,
 				7EF6BAE72239212F000C5D64 /* UIImage+QDExtension.m in Sources */,
@@ -899,10 +919,13 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -920,10 +943,13 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -934,7 +960,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -949,7 +979,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -963,7 +997,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -977,7 +1015,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

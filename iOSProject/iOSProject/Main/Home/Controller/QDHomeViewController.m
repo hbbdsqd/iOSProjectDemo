@@ -9,6 +9,7 @@
 #import "QDHomeViewController.h"
 #import "QDLiveViewController.h"
 #import "QDIJKLiveViewController.h"
+#import "QDAgoreLiveViewController.h"
 @interface QDHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
@@ -21,7 +22,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
-    _titleArray = @[@"MBProgressHUD展示消息无图标",@"MBProgressHUD展展示成功消息",@"MBProgressHUD展示失败消息",@"MBProgressHUD展示警告消息",@"MBProgressHUD展示loading",@"七牛--m3u8",@"七牛--mp4",@"七牛--flv",@"IJK--m3u8",@"IJK--mp4",@"IJK--flv",@"IJK--抖音滚动"];
+    _titleArray = @[@"MBProgressHUD展示消息无图标",@"MBProgressHUD展展示成功消息",@"MBProgressHUD展示失败消息",@"MBProgressHUD展示警告消息",@"MBProgressHUD展示loading",@"七牛--m3u8",@"七牛--mp4",@"七牛--flv",@"IJK--m3u8",@"IJK--mp4",@"IJK--flv",@"IJK--抖音滚动",@"声网rtc拉流播放"];
     [self addRefreshWithTableView:self.tableView];
 }
 - (void)headerRefresh{
@@ -116,6 +117,20 @@
         {
             QDIJKLiveViewController * liveVC = [[QDIJKLiveViewController alloc]init];
             liveVC.urlStr = @"http://liveng.alicdn.com/mediaplatform/92d8f1d3-8b9a-40a6-b6ca-5bfa00a2e746.flv?auth_key=1555414003-0-0-6a1291403c08d4c5f4968d4341bd700a&viewer_id=0";
+            [self.navigationController pushViewController:liveVC animated:YES];
+        }
+            break;
+        case 11:
+        {
+            QDIJKLiveViewController * liveVC = [[QDIJKLiveViewController alloc]init];
+            liveVC.urlStr = @"http://liveng.alicdn.com/mediaplatform/92d8f1d3-8b9a-40a6-b6ca-5bfa00a2e746.flv?auth_key=1555414003-0-0-6a1291403c08d4c5f4968d4341bd700a&viewer_id=0";
+            [self.navigationController pushViewController:liveVC animated:YES];
+        }
+            break;
+        case 12:
+        {
+            QDAgoreLiveViewController * liveVC = [[QDAgoreLiveViewController alloc]init];
+            liveVC.liveID = @"5c90d62bfd1e3600214e3e32";
             [self.navigationController pushViewController:liveVC animated:YES];
         }
             break;

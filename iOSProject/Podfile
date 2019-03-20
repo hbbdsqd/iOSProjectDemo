@@ -24,5 +24,6 @@ target "iOSProject" do
     pod 'ZFPlayer/ijkplayer'
     
     pod 'AgoraRtcEngine_iOS' #声网播放器
-    pod 'RongCloudIM/IMLib', #融云即时通讯
+    pod 'RongCloudIM/IMLib' #融云即时通讯
+    
 end

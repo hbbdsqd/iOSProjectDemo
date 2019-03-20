@@ -9,8 +9,8 @@
 主要的业务逻辑存放代码位置
 ### Expand
 主要的基础服务框架和支持层
-### Vender
-主要的第三方模块，无法使用pod库的集成
+### Module
+主要是模块存放位置，区别于业务层内容，作为基础模块服务业务，方便调用，封装解耦
 ### Resource
 资源文件存放处：info.plist、image、appdelegate等等
 
