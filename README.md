@@ -8,7 +8,7 @@
 ### Main
 主要的业务逻辑存放代码位置
 #### Base
-##### ·Controller
+- Controller
 ###### QDBaseViewController
 控制器基类，便于控制操纵项目中的所有控制器。强制要求所有新创建的控制器必须继承于此控制器。
 ###### QDBaseNavViewController
