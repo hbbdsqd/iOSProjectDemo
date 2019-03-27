@@ -11,7 +11,7 @@
 ##### Controller
 ###### QDBaseViewController
 控制器基类，便于控制操纵项目中的所有控制器。强制要求所有新创建的控制器必须继承于此控制器。
-'''
+```
 /**
 * 是否支持右滑返回，默认YES
 */
@@ -77,7 +77,7 @@ webView控制器，加载内部链接网页，动态获取网页title展示
 - (void)configWithModel:(id)baseModel;
 - (void)configWithString:(NSString *)str;
 @end
-'''
+```
 ##### Model
 ###### QDBaseModel
 #### Push
