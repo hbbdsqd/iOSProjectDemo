@@ -60,7 +60,7 @@
 - (void)creatRightBtnOfCustomWithTitle:(NSString *)title textColor:(UIColor *)textColor;
 
 - (void)creatRightBtnOfCustomWithImage:(NSString *)imageName;
-'''
+```
 ###### QDBaseNavViewController
 导航控制器，用于导航样式的统一管理。
 ###### QDTabBarViewController
@@ -70,7 +70,7 @@ webView控制器，加载内部链接网页，动态获取网页title展示
 
 ##### View
 ###### QDBaseTableViewCell
-'''
+```
 @interface QDBaseTableViewCell : UITableViewCell
 - (void)configWithDic:(NSDictionary *)dic;
 - (void)configWithArray:(NSArray *)array;
