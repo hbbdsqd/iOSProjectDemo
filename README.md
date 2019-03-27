@@ -11,12 +11,75 @@
 ##### Controller
 ###### QDBaseViewController
 控制器基类，便于控制操纵项目中的所有控制器。强制要求所有新创建的控制器必须继承于此控制器。
+'''
+/**
+* 是否支持右滑返回，默认YES
+*/
+@property (nonatomic, assign) BOOL popGestureEnable;
+//分⻚页数量量
+@property (nonatomic,assign) NSInteger page_num;
+//分⻚页⼤大⼩小
+@property (nonatomic,assign) NSInteger page_size;
+//公共数组
+@property (nonatomic,strong) NSMutableArray *dataArray;
+//公共字典
+@property (nonatomic,strong) NSMutableDictionary *dataDict;
+
+#pragma mark ---------加载刷新控件
+- (void)addRefreshWithTableView:(UITableView *)tableView;
+- (void)headerRefresh;
+- (void)footerRefresh;
+
+- (UIBarButtonItem*)leftMenuBarButtonItem;
+
+#pragma mark ---------加载无数据视图到指定view
+/**
+*  在指定view显示搜索没有数据的视图
+*/
+- (void)showNoDataViewToView:(UIView*)superview withString:(NSString*)string;
+
+/**
+*  从指定view删除搜索没有数据的视图
+*/
+- (void)hideNoDataViewFromView:(UIView*)superview;
+
+- (void)tapRefresh;
+
+- (void)backPopViewcontroller:(id)sender;
+
+
+#pragma mark ---------创建导航条左侧和右侧按钮根据文字和图片可自定义
+- (void)creatLeftBtnOfCustomWithTitle:(NSString *)title;
+
+- (void)creatLeftBtnOfCustomWithTitle:(NSString *)title textColor:(UIColor *)textColor;
+
+- (void)creatLeftBtnOfCustomWithImage:(NSString *)imageName;
+
+- (void)creatRightBtnOfCustomWithTitle:(NSString *)title;
+
+- (void)creatRightBtnOfCustomWithTitle:(NSString *)title textColor:(UIColor *)textColor;
+
+- (void)creatRightBtnOfCustomWithImage:(NSString *)imageName;
+'''
 ###### QDBaseNavViewController
 导航控制器，用于导航样式的统一管理。
 ###### QDTabBarViewController
 tabbar控制器，处理消息样式和业务逻辑分类。
 ###### QDBaseWebViewViewController
 webView控制器，加载内部链接网页，动态获取网页title展示
+
+##### View
+###### QDBaseTableViewCell
+'''
+@interface QDBaseTableViewCell : UITableViewCell
+- (void)configWithDic:(NSDictionary *)dic;
+- (void)configWithArray:(NSArray *)array;
+- (void)configWithModel:(id)baseModel;
+- (void)configWithString:(NSString *)str;
+@end
+'''
+##### Model
+###### QDBaseModel
 #### Push
 消息推送处理逻辑，判断内部跳转类型，然后动态获取推送的路由，截取控制器方法，截取参数，动态赋值给控制器
 #### Login
