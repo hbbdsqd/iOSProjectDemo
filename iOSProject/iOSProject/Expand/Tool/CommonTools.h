@@ -15,6 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (BOOL)isBlankString:(NSString *)string;
 
++ (QDBaseViewController *)getClassVCWithName:(NSString *)className;
+
 @end
 
 NS_ASSUME_NONNULL_END

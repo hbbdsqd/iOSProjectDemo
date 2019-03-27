@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		53CBB59EAA6DA027549B23C0 /* libPods-iOSProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F0AA7ED93417E5E07455788 /* libPods-iOSProject.a */; };
+		7E498830224218ED00FC87A0 /* QDHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E498832224218ED00FC87A0 /* QDHomeViewController.xib */; };
+		7E49884022421EBB00FC87A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E49884222421EBB00FC87A0 /* InfoPlist.strings */; };
+		7E49884622421FC200FC87A0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E49884822421FC200FC87A0 /* Localizable.strings */; };
 		7E6779A4223F94CA008F3334 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779A3223F94CA008F3334 /* VideoToolbox.framework */; };
 		7E6779A6223F94D1008F3334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779A5223F94D1008F3334 /* UIKit.framework */; };
 		7E6779A8223F94D7008F3334 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779A7223F94D7008F3334 /* QuartzCore.framework */; };
@@ -37,7 +40,6 @@
 		7EF6BAC8223906CB000C5D64 /* QDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAC7223906CB000C5D64 /* QDBaseViewController.m */; };
 		7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BACA223906ED000C5D64 /* QDBaseNavViewController.m */; };
 		7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BACD22390712000C5D64 /* QDHomeViewController.m */; };
-		7EF6BAD022390712000C5D64 /* QDHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BACE22390712000C5D64 /* QDHomeViewController.xib */; };
 		7EF6BAD42239071F000C5D64 /* QDMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD22239071F000C5D64 /* QDMessageViewController.m */; };
 		7EF6BAD52239071F000C5D64 /* QDMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD32239071F000C5D64 /* QDMessageViewController.xib */; };
 		7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD72239072E000C5D64 /* QDMineViewController.m */; };
@@ -78,6 +80,15 @@
 /* Begin PBXFileReference section */
 		3596FB00105EEC2C8FFC4575 /* Pods-iOSProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.debug.xcconfig"; sourceTree = "<group>"; };
 		4708E70422855E45D239AE8C /* Pods-iOSProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject.release.xcconfig"; sourceTree = "<group>"; };
+		7E498831224218ED00FC87A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/QDHomeViewController.xib; sourceTree = "<group>"; };
+		7E49883A22421E6500FC87A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/QDHomeViewController.strings; sourceTree = "<group>"; };
+		7E49883B22421E6500FC87A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		7E49883E22421EA900FC87A0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/QDHomeViewController.strings"; sourceTree = "<group>"; };
+		7E49883F22421EAA00FC87A0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		7E49884122421EBB00FC87A0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		7E49884322421EBE00FC87A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7E49884722421FC200FC87A0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7E49884922421FC300FC87A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		7E6779A3223F94CA008F3334 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		7E6779A5223F94D1008F3334 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E6779A7223F94D7008F3334 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -123,7 +134,6 @@
 		7EF6BACA223906ED000C5D64 /* QDBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDBaseNavViewController.m; sourceTree = "<group>"; };
 		7EF6BACC22390712000C5D64 /* QDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDHomeViewController.h; sourceTree = "<group>"; };
 		7EF6BACD22390712000C5D64 /* QDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDHomeViewController.m; sourceTree = "<group>"; };
-		7EF6BACE22390712000C5D64 /* QDHomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDHomeViewController.xib; sourceTree = "<group>"; };
 		7EF6BAD12239071F000C5D64 /* QDMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMessageViewController.h; sourceTree = "<group>"; };
 		7EF6BAD22239071F000C5D64 /* QDMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDMessageViewController.m; sourceTree = "<group>"; };
 		7EF6BAD32239071F000C5D64 /* QDMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDMessageViewController.xib; sourceTree = "<group>"; };
@@ -208,6 +218,22 @@
 				7EF6BB06223B4FD9000C5D64 /* QDCountDownButton.m */,
 			);
 			path = QDCountDownButton;
+			sourceTree = "<group>";
+		};
+		7E4988272241DD3100FC87A0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				7EAE9039223F415400F86725 /* QDLiveViewController.h */,
+				7EAE903A223F415400F86725 /* QDLiveViewController.m */,
+				7EAE903B223F415400F86725 /* QDLiveViewController.xib */,
+				7E6779C4223FA4C6008F3334 /* QDIJKLiveViewController.h */,
+				7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */,
+				7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */,
+				7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */,
+				7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */,
+				7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 		7EF6BA752238F44E000C5D64 = {
@@ -296,6 +322,8 @@
 				7EF6BA932238F44F000C5D64 /* main.m */,
 				7EF6BA8A2238F44E000C5D64 /* iOSProject.xcdatamodeld */,
 				7EF6BAC12238FFDA000C5D64 /* PrefixHeader.pch */,
+				7E49884222421EBB00FC87A0 /* InfoPlist.strings */,
+				7E49884822421FC200FC87A0 /* Localizable.strings */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -416,16 +444,7 @@
 			children = (
 				7EF6BACC22390712000C5D64 /* QDHomeViewController.h */,
 				7EF6BACD22390712000C5D64 /* QDHomeViewController.m */,
-				7EF6BACE22390712000C5D64 /* QDHomeViewController.xib */,
-				7EAE9039223F415400F86725 /* QDLiveViewController.h */,
-				7EAE903A223F415400F86725 /* QDLiveViewController.m */,
-				7EAE903B223F415400F86725 /* QDLiveViewController.xib */,
-				7E6779C4223FA4C6008F3334 /* QDIJKLiveViewController.h */,
-				7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */,
-				7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */,
-				7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */,
-				7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */,
-				7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */,
+				7E498832224218ED00FC87A0 /* QDHomeViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -433,6 +452,7 @@
 		7EF6BAE22239086C000C5D64 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				7E4988272241DD3100FC87A0 /* Video */,
 				7E4988212241DAE900FC87A0 /* QDCountDownButton */,
 			);
 			path = Module;
@@ -599,8 +619,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = 7EF6BA752238F44E000C5D64;
 			productRefGroup = 7EF6BA7F2238F44E000C5D64 /* Products */;
@@ -624,9 +644,11 @@
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
 				7EF6BAD52239071F000C5D64 /* QDMessageViewController.xib in Resources */,
 				7EAE903D223F415400F86725 /* QDLiveViewController.xib in Resources */,
+				7E49884622421FC200FC87A0 /* Localizable.strings in Resources */,
 				7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */,
 				7EF6BA8E2238F44F000C5D64 /* Assets.xcassets in Resources */,
-				7EF6BAD022390712000C5D64 /* QDHomeViewController.xib in Resources */,
+				7E49884022421EBB00FC87A0 /* InfoPlist.strings in Resources */,
+				7E498830224218ED00FC87A0 /* QDHomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -782,10 +804,40 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		7E498832224218ED00FC87A0 /* QDHomeViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E498831224218ED00FC87A0 /* Base */,
+				7E49883A22421E6500FC87A0 /* en */,
+				7E49883E22421EA900FC87A0 /* zh-Hans */,
+			);
+			name = QDHomeViewController.xib;
+			sourceTree = "<group>";
+		};
+		7E49884222421EBB00FC87A0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E49884122421EBB00FC87A0 /* zh-Hans */,
+				7E49884322421EBE00FC87A0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7E49884822421FC200FC87A0 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E49884722421FC200FC87A0 /* zh-Hans */,
+				7E49884922421FC300FC87A0 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		7EF6BA8F2238F44F000C5D64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				7EF6BA902238F44F000C5D64 /* Base */,
+				7E49883B22421E6500FC87A0 /* en */,
+				7E49883F22421EAA00FC87A0 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -797,6 +849,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -856,6 +909,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -912,6 +966,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSProject/Vender",
@@ -936,6 +991,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
+				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOSProject/Vender",

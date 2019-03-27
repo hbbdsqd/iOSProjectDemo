@@ -38,4 +38,15 @@
     }
     return NO;
 }
+
++ (QDBaseViewController *)getClassVCWithName:(NSString *)className{
+    
+    Class cls = NSClassFromString(className);
+    BOOL isSubClass = [cls isSubclassOfClass:[QDBaseViewController class]];
+    if (isSubClass) {
+        return (QDBaseViewController *)[[cls alloc]init];
+    }else{
+        return [[QDBaseViewController alloc]init];
+    }
+}
 @end

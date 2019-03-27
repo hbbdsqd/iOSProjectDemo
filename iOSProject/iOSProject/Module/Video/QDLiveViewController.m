@@ -16,6 +16,9 @@
 @implementation QDLiveViewController
 
 - (void)viewDidLoad {
+    
+    
+    
     [super viewDidLoad];
     // 初始化 PLPlayerOption 对象
     PLPlayerOption *option = [PLPlayerOption defaultOption];
