@@ -83,7 +83,7 @@
 //    }
     
     tabbarVC.selectedIndex = 0;
-    QDBaseNavViewController * navc =tabbarVC.selectedViewController;
+    QDBaseNavViewController * navc = (QDBaseNavViewController *)tabbarVC.selectedViewController;
     self.rootViewController = (QDBaseViewController *)navc.topViewController;
 }
 

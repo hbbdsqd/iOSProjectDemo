@@ -35,6 +35,9 @@
 		7EEAA0B1224B5FF1009B6617 /* QDPushRouteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0B0224B5FF1009B6617 /* QDPushRouteHelper.m */; };
 		7EEAA0B6224B604B009B6617 /* QDBaseWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0B4224B604B009B6617 /* QDBaseWebViewViewController.m */; };
 		7EEAA0B7224B604B009B6617 /* QDBaseWebViewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0B5224B604B009B6617 /* QDBaseWebViewViewController.xib */; };
+		7EEAA0BC224B684F009B6617 /* QDBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0BA224B684F009B6617 /* QDBaseTableViewCell.m */; };
+		7EEAA0BD224B684F009B6617 /* QDBaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0BB224B684F009B6617 /* QDBaseTableViewCell.xib */; };
+		7EEAA0C1224B686A009B6617 /* QDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0C0224B686A009B6617 /* QDBaseModel.m */; };
 		7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA822238F44E000C5D64 /* AppDelegate.m */; };
 		7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8A2238F44E000C5D64 /* iOSProject.xcdatamodeld */; };
 		7EF6BA8E2238F44F000C5D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8D2238F44F000C5D64 /* Assets.xcassets */; };
@@ -124,6 +127,11 @@
 		7EEAA0B3224B604B009B6617 /* QDBaseWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDBaseWebViewViewController.h; sourceTree = "<group>"; };
 		7EEAA0B4224B604B009B6617 /* QDBaseWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDBaseWebViewViewController.m; sourceTree = "<group>"; };
 		7EEAA0B5224B604B009B6617 /* QDBaseWebViewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDBaseWebViewViewController.xib; sourceTree = "<group>"; };
+		7EEAA0B9224B684F009B6617 /* QDBaseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDBaseTableViewCell.h; sourceTree = "<group>"; };
+		7EEAA0BA224B684F009B6617 /* QDBaseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDBaseTableViewCell.m; sourceTree = "<group>"; };
+		7EEAA0BB224B684F009B6617 /* QDBaseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDBaseTableViewCell.xib; sourceTree = "<group>"; };
+		7EEAA0BF224B686A009B6617 /* QDBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDBaseModel.h; sourceTree = "<group>"; };
+		7EEAA0C0224B686A009B6617 /* QDBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDBaseModel.m; sourceTree = "<group>"; };
 		7EF6BA7E2238F44E000C5D64 /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF6BA812238F44E000C5D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EF6BA822238F44E000C5D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -274,6 +282,41 @@
 				7EEAA0B0224B5FF1009B6617 /* QDPushRouteHelper.m */,
 			);
 			path = Push;
+			sourceTree = "<group>";
+		};
+		7EEAA0B8224B6812009B6617 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EF6BAC6223906CB000C5D64 /* QDBaseViewController.h */,
+				7EF6BAC7223906CB000C5D64 /* QDBaseViewController.m */,
+				7EF6BAC9223906ED000C5D64 /* QDBaseNavViewController.h */,
+				7EF6BACA223906ED000C5D64 /* QDBaseNavViewController.m */,
+				7EF6BADF22390806000C5D64 /* QDTabBarViewController.h */,
+				7EF6BAE022390806000C5D64 /* QDTabBarViewController.m */,
+				7EEAA0B3224B604B009B6617 /* QDBaseWebViewViewController.h */,
+				7EEAA0B4224B604B009B6617 /* QDBaseWebViewViewController.m */,
+				7EEAA0B5224B604B009B6617 /* QDBaseWebViewViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7EEAA0BE224B6854009B6617 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EEAA0B9224B684F009B6617 /* QDBaseTableViewCell.h */,
+				7EEAA0BA224B684F009B6617 /* QDBaseTableViewCell.m */,
+				7EEAA0BB224B684F009B6617 /* QDBaseTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7EEAA0C2224B686E009B6617 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7EEAA0BF224B686A009B6617 /* QDBaseModel.h */,
+				7EEAA0C0224B686A009B6617 /* QDBaseModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		7EF6BA752238F44E000C5D64 = {
@@ -427,15 +470,9 @@
 		7EF6BAC222390599000C5D64 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				7EF6BAC6223906CB000C5D64 /* QDBaseViewController.h */,
-				7EF6BAC7223906CB000C5D64 /* QDBaseViewController.m */,
-				7EF6BAC9223906ED000C5D64 /* QDBaseNavViewController.h */,
-				7EF6BACA223906ED000C5D64 /* QDBaseNavViewController.m */,
-				7EF6BADF22390806000C5D64 /* QDTabBarViewController.h */,
-				7EF6BAE022390806000C5D64 /* QDTabBarViewController.m */,
-				7EEAA0B3224B604B009B6617 /* QDBaseWebViewViewController.h */,
-				7EEAA0B4224B604B009B6617 /* QDBaseWebViewViewController.m */,
-				7EEAA0B5224B604B009B6617 /* QDBaseWebViewViewController.xib */,
+				7EEAA0B8224B6812009B6617 /* Controller */,
+				7EEAA0BE224B6854009B6617 /* View */,
+				7EEAA0C2224B686E009B6617 /* Model */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -684,6 +721,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EEAA0BD224B684F009B6617 /* QDBaseTableViewCell.xib in Resources */,
 				7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */,
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
@@ -792,12 +830,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EEAA0B6224B604B009B6617 /* QDBaseWebViewViewController.m in Sources */,
+				7EEAA0C1224B686A009B6617 /* QDBaseModel.m in Sources */,
 				7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */,
 				7EF6BAED22392501000C5D64 /* UIView+QDExtension.m in Sources */,
 				7EF6BA942238F44F000C5D64 /* main.m in Sources */,
 				7EF6BAC8223906CB000C5D64 /* QDBaseViewController.m in Sources */,
 				7EF6BB07223B4FD9000C5D64 /* QDCountDownButton.m in Sources */,
 				7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */,
+				7EEAA0BC224B684F009B6617 /* QDBaseTableViewCell.m in Sources */,
 				7E6779C7223FA4C6008F3334 /* QDIJKLiveViewController.m in Sources */,
 				7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */,
 				7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */,
