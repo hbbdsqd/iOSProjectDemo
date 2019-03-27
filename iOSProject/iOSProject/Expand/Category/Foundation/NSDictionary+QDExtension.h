@@ -11,6 +11,13 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface NSDictionary (QDExtension)
+
+/**
+ 获取value
+
+ @param key key
+ @return value
+ */
 - (NSString *)getValueForKey:(NSString *)key;
 @end
 

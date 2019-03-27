@@ -18,7 +18,7 @@ API_AVAILABLE(ios(10.0))
 @property (nonatomic, copy) void(^currentNetworkStateBlock)(NetworkStatus NetState);
 @property (nonatomic, strong) UIView *aboveView;//
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
-
+@property (nonatomic,strong) QDTabBarViewController *tabbarVC;
 - (void)saveContext;
 
 

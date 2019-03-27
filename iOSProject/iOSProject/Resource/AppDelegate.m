@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 @interface AppDelegate ()
-@property (nonatomic,strong) QDTabBarViewController *tabbarVC;
+
 
 @end
 
