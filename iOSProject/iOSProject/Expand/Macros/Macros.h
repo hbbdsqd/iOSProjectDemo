@@ -57,7 +57,7 @@
 #define QDIOS11   @available(iOS 11.0, *)
 #define QDQDX ([UIScreen mainScreen].bounds.size.width == 375.0f && [UIScreen mainScreen].bounds.size.height == 812.0f)
 
-#define QDCScreen_Width  [UIScreen mainScreen].bounds.size.width
+#define QDScreen_Width  [UIScreen mainScreen].bounds.size.width
 #define QDScreen_Height   [UIScreen mainScreen].bounds.size.height
 #define QDStatusBarHeight 20
 #define kNavigationBarHeight 44

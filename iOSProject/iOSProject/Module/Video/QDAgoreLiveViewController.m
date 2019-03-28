@@ -21,7 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _agLiveView=[[UIView alloc]initWithFrame:CGRectMake(0, 0, QDCScreen_Width, QDScreen_Height)];
+    _agLiveView=[[UIView alloc]initWithFrame:CGRectMake(0, 0, QDScreen_Width, QDScreen_Height)];
     [_agLiveView setBackgroundColor:[UIColor blackColor]];
     [self.view addSubview:_agLiveView];
     [self play];

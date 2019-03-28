@@ -38,6 +38,10 @@
 		7EEAA0BC224B684F009B6617 /* QDBaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0BA224B684F009B6617 /* QDBaseTableViewCell.m */; };
 		7EEAA0BD224B684F009B6617 /* QDBaseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0BB224B684F009B6617 /* QDBaseTableViewCell.xib */; };
 		7EEAA0C1224B686A009B6617 /* QDBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0C0224B686A009B6617 /* QDBaseModel.m */; };
+		7EEAA0D6224C6A9B009B6617 /* QDADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D0224C6A9B009B6617 /* QDADViewController.m */; };
+		7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D1224C6A9B009B6617 /* QDADViewController.xib */; };
+		7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D4224C6A9B009B6617 /* QDGuideViewController.xib */; };
+		7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D5224C6A9B009B6617 /* QDGuideViewController.m */; };
 		7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA822238F44E000C5D64 /* AppDelegate.m */; };
 		7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8A2238F44E000C5D64 /* iOSProject.xcdatamodeld */; };
 		7EF6BA8E2238F44F000C5D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8D2238F44F000C5D64 /* Assets.xcassets */; };
@@ -132,6 +136,12 @@
 		7EEAA0BB224B684F009B6617 /* QDBaseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDBaseTableViewCell.xib; sourceTree = "<group>"; };
 		7EEAA0BF224B686A009B6617 /* QDBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDBaseModel.h; sourceTree = "<group>"; };
 		7EEAA0C0224B686A009B6617 /* QDBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDBaseModel.m; sourceTree = "<group>"; };
+		7EEAA0D0224C6A9B009B6617 /* QDADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDADViewController.m; sourceTree = "<group>"; };
+		7EEAA0D1224C6A9B009B6617 /* QDADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDADViewController.xib; sourceTree = "<group>"; };
+		7EEAA0D2224C6A9B009B6617 /* QDGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDGuideViewController.h; sourceTree = "<group>"; };
+		7EEAA0D3224C6A9B009B6617 /* QDADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDADViewController.h; sourceTree = "<group>"; };
+		7EEAA0D4224C6A9B009B6617 /* QDGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDGuideViewController.xib; sourceTree = "<group>"; };
+		7EEAA0D5224C6A9B009B6617 /* QDGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDGuideViewController.m; sourceTree = "<group>"; };
 		7EF6BA7E2238F44E000C5D64 /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF6BA812238F44E000C5D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EF6BA822238F44E000C5D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -319,6 +329,27 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		7EEAA0C8224C685D009B6617 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				7EEAA0CF224C6A9B009B6617 /* Controller */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		7EEAA0CF224C6A9B009B6617 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EEAA0D3224C6A9B009B6617 /* QDADViewController.h */,
+				7EEAA0D0224C6A9B009B6617 /* QDADViewController.m */,
+				7EEAA0D1224C6A9B009B6617 /* QDADViewController.xib */,
+				7EEAA0D2224C6A9B009B6617 /* QDGuideViewController.h */,
+				7EEAA0D5224C6A9B009B6617 /* QDGuideViewController.m */,
+				7EEAA0D4224C6A9B009B6617 /* QDGuideViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7EF6BA752238F44E000C5D64 = {
 			isa = PBXGroup;
 			children = (
@@ -379,6 +410,7 @@
 				7EF6BAC4223905B3000C5D64 /* Mine */,
 				7EEAA0AD224B5FA0009B6617 /* Login */,
 				7EEAA0B2224B5FF5009B6617 /* Push */,
+				7EEAA0C8224C685D009B6617 /* Guide */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -723,8 +755,10 @@
 			files = (
 				7EEAA0BD224B684F009B6617 /* QDBaseTableViewCell.xib in Resources */,
 				7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */,
+				7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */,
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
+				7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */,
 				7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */,
 				7EF6BAD52239071F000C5D64 /* QDMessageViewController.xib in Resources */,
 				7EAE903D223F415400F86725 /* QDLiveViewController.xib in Resources */,
@@ -830,6 +864,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EEAA0B6224B604B009B6617 /* QDBaseWebViewViewController.m in Sources */,
+				7EEAA0D6224C6A9B009B6617 /* QDADViewController.m in Sources */,
 				7EEAA0C1224B686A009B6617 /* QDBaseModel.m in Sources */,
 				7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */,
 				7EF6BAED22392501000C5D64 /* UIView+QDExtension.m in Sources */,
@@ -848,6 +883,7 @@
 				7EF6BB0B223B512C000C5D64 /* QDBaseSever.m in Sources */,
 				7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */,
 				7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */,
+				7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */,
 				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
 				7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */,
@@ -1054,6 +1090,7 @@
 			baseConfigurationReference = 3596FB00105EEC2C8FFC4575 /* Pods-iOSProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				ENABLE_BITCODE = YES;
@@ -1079,6 +1116,7 @@
 			baseConfigurationReference = 4708E70422855E45D239AE8C /* Pods-iOSProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				ENABLE_BITCODE = YES;

@@ -67,8 +67,8 @@
 - (void)showAboveView
 {
     if (_aboveView == nil) {
-        _aboveView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, QDCScreen_Width, QDScreen_Height)];
-        UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, QDScreen_Height / 2 - 30, QDCScreen_Width, 30)];
+        _aboveView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, QDScreen_Width, QDScreen_Height)];
+        UILabel* label = [[UILabel alloc] initWithFrame:CGRectMake(0, QDScreen_Height / 2 - 30, QDScreen_Width, 30)];
         [_aboveView addSubview:label];
         _aboveView.backgroundColor = [UIColor whiteColor];
         label.textAlignment = NSTextAlignmentCenter;
