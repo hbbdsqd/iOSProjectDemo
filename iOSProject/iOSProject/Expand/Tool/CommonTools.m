@@ -49,4 +49,35 @@
         return [[QDBaseViewController alloc]init];
     }
 }
+
++ (BOOL)changeSHowGuideVC{
+    BOOL show = NO;
+    if ([CommonTools isBlankString:[QDUserDefault getGuideVersion]] || ![[QDUserDefault getGuideVersion] isEqualToString:QDGuideVersion]) {
+        show = YES;
+    }
+    return show;
+}
+
++ (void)gotoHomeVC{
+    AppDelegate * app = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    app.tabbarVC = [[QDTabBarViewController alloc]init];
+    [app.tabbarVC setupViewControllers];
+    app.tabbarVC.selectedIndex = 0;
+    app.window.rootViewController = app.tabbarVC;
+    [app.window makeKeyAndVisible];
+}
+
++ (void)addTapGestureWithView:(UIView *)view block:(tapGestureBlock)block{
+    [CommonTools insatance].tapBlock = block;
+    view.userInteractionEnabled = YES;
+    UITapGestureRecognizer * tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapClick:)];
+    [view addGestureRecognizer:tap];
+}
+
++ (void)tapClick:(UITapGestureRecognizer *)gec{
+    if ([CommonTools insatance].tapBlock) {
+        [CommonTools insatance].tapBlock(gec.view);
+    }
+    
+}
 @end

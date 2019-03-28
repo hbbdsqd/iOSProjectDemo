@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "QDGuideViewController.h"
+#import "QDADViewController.h"
 @interface AppDelegate ()
 
 
@@ -19,13 +21,34 @@
  APP启动
  */
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
-    self.tabbarVC = [[QDTabBarViewController alloc]init];
-    [self.tabbarVC setupViewControllers];
-    self.window.rootViewController = self.tabbarVC;
+//    [self loadLaunchVC];
+    [self loadADVC];
     return YES;
+}
+
+/**
+ 展示广告图
+ */
+- (void)loadADVC{
+    QDADViewController * adVC = [[QDADViewController alloc]init];
+    self.window.rootViewController = adVC;
+}
+
+/**
+ 判断加载控制器
+ */
+- (void)loadLaunchVC{
+//    修改引导图版本号即可展示：Macros-》QDGuideVersion
+    if ([CommonTools changeSHowGuideVC]) {
+        QDGuideViewController * guideVC = [[QDGuideViewController alloc]init];
+        self.window.rootViewController = guideVC;
+    }else{
+        self.tabbarVC = [[QDTabBarViewController alloc]init];
+        [self.tabbarVC setupViewControllers];
+        self.window.rootViewController = self.tabbarVC;
+    }
 }
 #pragma mark- 网络状态的改变
 - (void)reachabilityChanged:(NSNotification*)note

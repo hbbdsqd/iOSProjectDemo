@@ -24,6 +24,8 @@ NS_ASSUME_NONNULL_BEGIN
 //公共字典
 @property (nonatomic,strong) NSMutableDictionary *dataDict;
 
+
+
 #pragma mark ---------加载刷新控件
 - (void)addRefreshWithTableView:(UITableView *)tableView;
 - (void)headerRefresh;

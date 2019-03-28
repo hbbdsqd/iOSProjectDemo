@@ -37,7 +37,7 @@
         [self loadRootViewController];
         QDBaseWebViewViewController * webVC = [[QDBaseWebViewViewController alloc]init];
         webVC.urlStr = self.httpUrl;
-        [self.rootViewController.navigationController pushViewController:webVC animated:YES];
+        [self.rootViewController.navigationController pushViewController:webVC animated:NO];
     }else if ([self.linkType isEqualToString:@"OtherLink"]){
         
     }else{
@@ -61,15 +61,16 @@
                     [pushVC setValue:param forKey:key];
                 }
             }
-            [rootController.navigationController pushViewController:pushVC animated:YES];
+            [rootController.navigationController pushViewController:pushVC animated:NO];
         });
     }
 }
 
 - (void)loadRootViewController{
     AppDelegate * app = (AppDelegate *)[UIApplication sharedApplication].delegate;
-    QDTabBarViewController * tabbarVC = app.tabbarVC;
-    
+    app.tabbarVC = [[QDTabBarViewController alloc]init];
+    app.window.rootViewController = app.tabbarVC;
+    [app.tabbarVC setupViewControllers];
 //    if ([self.moduleName isEqualToString:NSStringFromClass([MuLiveController class])]) {
 //        tabbarVC.selectedIndex = 0;
 //    }else if ([self.moduleName isEqualToString:NSStringFromClass([NGCooperationMainViewController class])]){
@@ -82,8 +83,8 @@
 //        tabbarVC.selectedIndex = 0;
 //    }
     
-    tabbarVC.selectedIndex = 0;
-    QDBaseNavViewController * navc = (QDBaseNavViewController *)tabbarVC.selectedViewController;
+    app.tabbarVC.selectedIndex = 0;
+    QDBaseNavViewController * navc = (QDBaseNavViewController *)app.tabbarVC.selectedViewController;
     self.rootViewController = (QDBaseViewController *)navc.topViewController;
 }
 

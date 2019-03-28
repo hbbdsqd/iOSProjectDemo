@@ -28,6 +28,8 @@
     self.page_size = 20;
 }
 
+
+
 - (void)addRefreshWithTableView:(UITableView *)tableView{
     tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(headerRefresh)];
     tableView.mj_footer = [MJRefreshFooter footerWithRefreshingTarget:self refreshingAction:@selector(footerRefresh)];

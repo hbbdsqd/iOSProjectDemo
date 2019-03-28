@@ -13,6 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 @interface QDGuideViewController : QDBaseViewController
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIButton *skipBtn;
+@property (weak, nonatomic) IBOutlet UIButton *goHomeBtn;
+@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 
 @end
 

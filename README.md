@@ -82,6 +82,8 @@ webView控制器，加载内部链接网页，动态获取网页title展示
 ###### QDBaseModel
 #### Push
 消息推送处理逻辑，判断内部跳转类型，然后动态获取推送的路由，截取控制器方法，截取参数，动态赋值给控制器
+#### Guide
+添加QDADViewController（主要用于展示广告）和QDGuideViewController（主要用于展示引导图）。
 #### Login
 #### Business
 ##### Mine

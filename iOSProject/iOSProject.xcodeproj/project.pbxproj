@@ -42,6 +42,7 @@
 		7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D1224C6A9B009B6617 /* QDADViewController.xib */; };
 		7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D4224C6A9B009B6617 /* QDGuideViewController.xib */; };
 		7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D5224C6A9B009B6617 /* QDGuideViewController.m */; };
+		7EEAA0DC224C7AAF009B6617 /* QDUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0DB224C7AAF009B6617 /* QDUserDefault.m */; };
 		7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA822238F44E000C5D64 /* AppDelegate.m */; };
 		7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8A2238F44E000C5D64 /* iOSProject.xcdatamodeld */; };
 		7EF6BA8E2238F44F000C5D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8D2238F44F000C5D64 /* Assets.xcassets */; };
@@ -142,6 +143,8 @@
 		7EEAA0D3224C6A9B009B6617 /* QDADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDADViewController.h; sourceTree = "<group>"; };
 		7EEAA0D4224C6A9B009B6617 /* QDGuideViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDGuideViewController.xib; sourceTree = "<group>"; };
 		7EEAA0D5224C6A9B009B6617 /* QDGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDGuideViewController.m; sourceTree = "<group>"; };
+		7EEAA0DA224C7AAF009B6617 /* QDUserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDUserDefault.h; sourceTree = "<group>"; };
+		7EEAA0DB224C7AAF009B6617 /* QDUserDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDUserDefault.m; sourceTree = "<group>"; };
 		7EF6BA7E2238F44E000C5D64 /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF6BA812238F44E000C5D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EF6BA822238F44E000C5D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -466,6 +469,8 @@
 			children = (
 				7EF6BAF122394BFE000C5D64 /* CommonTools.h */,
 				7EF6BAF222394BFE000C5D64 /* CommonTools.m */,
+				7EEAA0DA224C7AAF009B6617 /* QDUserDefault.h */,
+				7EEAA0DB224C7AAF009B6617 /* QDUserDefault.m */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -882,6 +887,7 @@
 				7EF6BB0F223B591F000C5D64 /* QDSeverManager.m in Sources */,
 				7EF6BB0B223B512C000C5D64 /* QDBaseSever.m in Sources */,
 				7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */,
+				7EEAA0DC224C7AAF009B6617 /* QDUserDefault.m in Sources */,
 				7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */,
 				7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */,
 				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,

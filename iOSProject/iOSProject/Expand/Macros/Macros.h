@@ -9,6 +9,9 @@
 #ifndef Macros_h
 #define Macros_h
 
+#pragma mark - 引导图版本控制
+#define QDGuideVersion @"1.0.0"
+
 #pragma mark - 字体
 #define QDGetFont(fontSize) [UIFont systemFontOfSize:fontSize]
 
@@ -16,6 +19,7 @@
 
 
 #pragma mark - 色值
+#define QDColorWhite [UIColor whiteColor]
 #define QDGetColor(colorStr) [UIColor colorWithHexString:colorStr]
 #define QDColorBtnDisSelectedColor [UIColor colorWithHexString:@"D2D5DB"]
 #define QDColorMain QDGetColor(@"57818B")

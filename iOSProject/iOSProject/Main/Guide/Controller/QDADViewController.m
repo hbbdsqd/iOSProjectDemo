@@ -16,17 +16,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    self.skipBtn.layer.cornerRadius = 3;
+    __weak typeof(self) weakSelf = self;
+    [CommonTools addTapGestureWithView:self.imageView block:^(UIView *view) {
+        NSLog(@"%@",NSStringFromCGRect(view.frame));
+        [weakSelf gotoADDetail];
+    }];
+    
+    [self.skipBtn startWithSecond:3];
+    [self.skipBtn didFinished:^NSString *(QDCountDownButton * _Nonnull countDownButton, int second) {
+        [weakSelf skipBtnClick:nil];
+        return @"";
+    }];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)gotoADDetail{
+    NSDictionary * dic = @{@"url" : @"https://www.baidu.com/"};
+    [QDPushRouteHelper handleUserInfo:dic];
 }
-*/
 
+- (IBAction)skipBtnClick:(id)sender {
+    AppDelegate * app = (AppDelegate *)[UIApplication sharedApplication].delegate;
+    [app loadLaunchVC];
+}
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [UIApplication sharedApplication].statusBarHidden = YES;
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [UIApplication sharedApplication].statusBarHidden = NO;
+}
 @end

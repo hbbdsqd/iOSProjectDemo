@@ -19,8 +19,12 @@ API_AVAILABLE(ios(10.0))
 @property (nonatomic, strong) UIView *aboveView;//
 @property (readonly, strong) NSPersistentContainer *persistentContainer;
 @property (nonatomic,strong) QDTabBarViewController *tabbarVC;
+
+/**
+ 判断加载引导图还是主要tabbar
+ */
+- (void)loadLaunchVC;
+
 - (void)saveContext;
-
-
 @end
 

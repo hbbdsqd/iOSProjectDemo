@@ -23,9 +23,19 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
     self.title = NSLocalizedString(@"title", nil);
-    _titleArray = @[@"MBProgressHUD展示消息无图标"];
+    _titleArray = @[@"跳转到网页",@"跳转到网页",@"跳转到网页"];
     [self addRefreshWithTableView:self.tableView];
 }
+
+- (void)viewWillAppear:(BOOL)animated{
+    [super viewWillAppear:animated];
+    [self.rdv_tabBarController setTabBarHidden:NO animated:YES];
+}
+- (void)viewWillDisappear:(BOOL)animated{
+    [super viewWillDisappear:animated];
+    [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
+}
+
 - (void)headerRefresh{
     [self.tableView.mj_header endRefreshing];
 }
@@ -49,7 +59,10 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    QDBaseWebViewViewController * webVC = [[QDBaseWebViewViewController alloc]init];
+    webVC.urlStr = @"https://www.baidu.com/";
+    [self.navigationController pushViewController:webVC animated:YES];
 }
 
 @end
