@@ -7,9 +7,6 @@
 //
 
 #import "QDHomeViewController.h"
-#import "QDLiveViewController.h"
-#import "QDIJKLiveViewController.h"
-#import "QDAgoreLiveViewController.h"
 @interface QDHomeViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
@@ -17,13 +14,16 @@
 
 @implementation QDHomeViewController{
     NSArray *_titleArray;
+    NSArray *_userInfoArray;
 }
 
+//@{@"url":@"qdshow://QDAgoreLiveViewController?liveID=123"}
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor orangeColor];
     self.title = NSLocalizedString(@"title", nil);
-    _titleArray = @[@"跳转到网页",@"跳转到网页",@"跳转到网页"];
+    _titleArray = @[@"声网直播推流",@"声网直播拉流"];
+    _userInfoArray = @[@{@"url":@"qdshow://QDAgoreLiveViewController?liveID=123"},@{@"url":@""}];
     [self addRefreshWithTableView:self.tableView];
 }
 
@@ -54,15 +54,15 @@
     if (!cell) {
         cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellID];
     }
-    cell.textLabel.text = _titleArray[indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%@----%ld",_titleArray[indexPath.row],(long)indexPath.row];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-    QDBaseWebViewViewController * webVC = [[QDBaseWebViewViewController alloc]init];
-    webVC.urlStr = @"https://www.baidu.com/";
-    [self.navigationController pushViewController:webVC animated:YES];
+    if (_userInfoArray.count > indexPath.row) {
+        [QDPushRouteHelper handleUserInfo:_userInfoArray[indexPath.row] andRootViewController:self];
+    }
 }
 
 @end

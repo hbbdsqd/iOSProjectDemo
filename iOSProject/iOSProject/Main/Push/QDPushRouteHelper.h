@@ -28,9 +28,23 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, strong) id parameters;
 
+/**
+ 跳转的跟控制器
+ */
 @property (nonatomic,strong) QDBaseViewController *rootViewController;
+/**
+ *  跳转模块简称
+ */
+@property (nonatomic,strong) NSDictionary *userinfo;
 
+/**
+ 处理逻辑
+ */
 + (void)handleUserInfo:(NSDictionary *)userinfo;
+/**
+ 处理逻辑,根据跟控制器跳转
+ */
++ (void)handleUserInfo:(NSDictionary *)userinfo andRootViewController:(QDBaseViewController *)rootVC;
 @end
 
 NS_ASSUME_NONNULL_END

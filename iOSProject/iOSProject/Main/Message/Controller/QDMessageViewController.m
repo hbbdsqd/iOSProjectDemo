@@ -26,14 +26,9 @@
     [super viewWillDisappear:animated];
     [self.rdv_tabBarController setTabBarHidden:YES animated:YES];
 }
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [QDPushRouteHelper handleUserInfo:@{@"url":@"qdshow://QDIJKLiveViewController?urlStr=http:\/\/vod.shopshops.top\/shortform\/video\/5c8e3d7a705d2407008b457f_22.mp4"} andRootViewController:self];
 }
-*/
 
 @end

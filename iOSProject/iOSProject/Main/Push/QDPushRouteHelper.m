@@ -19,6 +19,15 @@
     return instance;
 }
 + (void)handleUserInfo:(NSDictionary *)userinfo{
+    [QDPushRouteHelper manager].userinfo = userinfo;
+    [QDPushRouteHelper manager].rootViewController = nil;
+    [[QDPushRouteHelper manager] changeLinkType:[userinfo getValueForKey:@"url"]];
+    [[QDPushRouteHelper manager] gotoVC];
+}
+
++ (void)handleUserInfo:(NSDictionary *)userinfo andRootViewController:(QDBaseViewController *)rootVC{
+    [QDPushRouteHelper manager].userinfo = userinfo;
+    [QDPushRouteHelper manager].rootViewController = rootVC;
     [[QDPushRouteHelper manager] changeLinkType:[userinfo getValueForKey:@"url"]];
     [[QDPushRouteHelper manager] gotoVC];
 }
@@ -67,6 +76,9 @@
 }
 
 - (void)loadRootViewController{
+    if (self.rootViewController) {
+        return;
+    }
     AppDelegate * app = (AppDelegate *)[UIApplication sharedApplication].delegate;
     app.tabbarVC = [[QDTabBarViewController alloc]init];
     app.window.rootViewController = app.tabbarVC;
@@ -111,10 +123,10 @@
         self.linkType = @"OtherLink";
     }else{
         NSLog(@"跳转链接 %@", url);
-        NSRange appRange = [url rangeOfString:@"shopshops://"];
+        NSRange appRange = [url rangeOfString:@"qdshow://"];
         BOOL HttpPrefix = [url hasPrefix:@"http://"];
         BOOL HttpsPrefix = [url hasPrefix:@"https://"];
-        BOOL shopshopsPrefix = [url hasPrefix:@"shopshops://"];
+        BOOL shopshopsPrefix = [url hasPrefix:@"qdshow://"];
         
         if (HttpPrefix || HttpsPrefix) {
             self.linkType = @"HttpLink";

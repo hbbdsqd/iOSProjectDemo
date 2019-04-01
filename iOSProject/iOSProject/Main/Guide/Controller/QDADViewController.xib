@@ -34,7 +34,7 @@
                         <constraint firstAttribute="height" constant="20" id="TNb-2q-z2y"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                    <state key="normal" title="跳过">
+                    <state key="normal" title="3秒">
                         <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <connections>

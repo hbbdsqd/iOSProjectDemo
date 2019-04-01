@@ -32,7 +32,7 @@
 
 - (void)addRefreshWithTableView:(UITableView *)tableView{
     tableView.mj_header = [MJRefreshNormalHeader headerWithRefreshingTarget:self refreshingAction:@selector(headerRefresh)];
-    tableView.mj_footer = [MJRefreshFooter footerWithRefreshingTarget:self refreshingAction:@selector(footerRefresh)];
+    tableView.mj_footer = [MJRefreshBackNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(footerRefresh)];
     [tableView.mj_header beginRefreshing];
 }
 
