@@ -22,7 +22,7 @@ target "iOSProject" do
     pod 'ZFPlayer/ControlView'
     pod 'ZFPlayer/AVPlayer'
     pod 'ZFPlayer/ijkplayer'
-    
+    pod 'JKCategories'  #分类使用
     pod 'AgoraRtcEngine_iOS' #声网播放器
     pod 'RongCloudIM/IMLib' #融云即时通讯
     

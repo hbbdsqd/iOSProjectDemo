@@ -11,10 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QDIJKLiveViewController : QDBaseViewController
-@property (nonatomic,copy) NSString *urlStr;
-
-@property (weak, nonatomic) IBOutlet UIView *playView;
-@property (weak, nonatomic) IBOutlet UIButton *playBtn;
+@property (nonatomic,copy) NSString *urlStr; 
 
 @end
 

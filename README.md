@@ -90,14 +90,13 @@ webView控制器，加载内部链接网页，动态获取网页title展示
 ```
 + (void)handleUserInfo:(NSDictionary *)userinfo andRootViewController:(QDBaseViewController *)rootVC;
 ```
-作用是可以根据rootVC赋值
+作用是可以根据rootVC赋值rootViewController的控制器。即可通过对外的方法控制由哪个控制器跳转到指定控制。后期会完善该内容，会增加block（用于时间回调和反向传值）和动态反射查找跳转控制器。
 ```
 /**
 跳转的跟控制器
 */
 @property (nonatomic,strong) QDBaseViewController *rootViewController;
 ```
-rootViewController的控制器。即可通过对外的方法控制由哪个控制器跳转到指定控制。后期会完善该内容，会增加block（用于时间回调和反向传值）和动态反射查找跳转控制器。即可以实现动态路由功能。
 #### Guide
 添加QDADViewController（主要用于展示广告）和QDGuideViewController（主要用于展示引导图）。
 #### Login

@@ -54,6 +54,13 @@
 #import "AppDelegate.h"
 #import "QDUserDefault.h"
 #import "QDPushRouteHelper.h"
+#import <JKCategories/JKUIKit.h>
+#import <JKCategories/JKFoundation.h>
+#import <JKCategories/JKCoreData.h>
+#import <JKCategories/JKCoreLocation.h>
+#import <JKCategories/JKMapKit.h>
+#import <JKCategories/JKQuartzCore.h>
+
 
 #pragma mark -------------分类
 #import "UIImage+QDExtension.h"
