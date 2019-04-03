@@ -23,7 +23,7 @@
     QDHomeViewController *firstViewController = [[QDHomeViewController alloc] init];
     QDBaseNavViewController *firstNavigationController = [[QDBaseNavViewController alloc]initWithRootViewController:firstViewController];
     
-    QDMessageViewController *secondViewController = [[QDMessageViewController alloc] init];
+    QDMallViewController *secondViewController = [[QDMallViewController alloc] init];
     QDBaseNavViewController *secondNavigationController = [[QDBaseNavViewController alloc]initWithRootViewController:secondViewController];
     
     QDMineViewController *thirdViewController = [[QDMineViewController alloc] init];

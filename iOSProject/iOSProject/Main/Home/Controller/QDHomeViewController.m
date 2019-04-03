@@ -23,6 +23,7 @@
     self.view.backgroundColor = [UIColor orangeColor];
     self.title = NSLocalizedString(@"title", nil);
     _titleArray = @[@"IJK播放器应用"];
+    
     _userInfoArray = @[@{@"url":@"qdshow://QDIJKLiveViewController?urlStr=http://test.live.shopshops.top/testlive/5c1d742205ae7914008b459d.flv?auth_key=1554101656-0-0-f86479bfd24968eb61b84ab932c5d655"}];
     [self addRefreshWithTableView:self.tableView];
 }

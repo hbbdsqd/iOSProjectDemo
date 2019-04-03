@@ -47,7 +47,7 @@
 #import "QDBaseViewController.h"
 #import "QDBaseNavViewController.h"
 #import "QDHomeViewController.h"
-#import "QDMessageViewController.h"
+#import "QDMallViewController.h"
 #import "QDMineViewController.h"
 #import "CommonTools.h"
 #import "QDBaseWebViewViewController.h"

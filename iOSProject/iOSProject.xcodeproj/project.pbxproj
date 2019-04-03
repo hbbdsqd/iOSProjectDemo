@@ -30,6 +30,10 @@
 		7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */; };
 		7EAE903C223F415400F86725 /* QDLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE903A223F415400F86725 /* QDLiveViewController.m */; };
 		7EAE903D223F415400F86725 /* QDLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAE903B223F415400F86725 /* QDLiveViewController.xib */; };
+		7EE65B312254512B000E33AA /* QDMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B2F2254512B000E33AA /* QDMallViewController.m */; };
+		7EE65B322254512B000E33AA /* QDMallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B302254512B000E33AA /* QDMallViewController.xib */; };
+		7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B3422545194000E33AA /* QDCommunityViewController.m */; };
+		7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B3522545194000E33AA /* QDCommunityViewController.xib */; };
 		7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */; };
 		7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */; };
 		7EEAA0B1224B5FF1009B6617 /* QDPushRouteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0B0224B5FF1009B6617 /* QDPushRouteHelper.m */; };
@@ -53,8 +57,6 @@
 		7EF6BAC8223906CB000C5D64 /* QDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAC7223906CB000C5D64 /* QDBaseViewController.m */; };
 		7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BACA223906ED000C5D64 /* QDBaseNavViewController.m */; };
 		7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BACD22390712000C5D64 /* QDHomeViewController.m */; };
-		7EF6BAD42239071F000C5D64 /* QDMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD22239071F000C5D64 /* QDMessageViewController.m */; };
-		7EF6BAD52239071F000C5D64 /* QDMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD32239071F000C5D64 /* QDMessageViewController.xib */; };
 		7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD72239072E000C5D64 /* QDMineViewController.m */; };
 		7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BAD82239072E000C5D64 /* QDMineViewController.xib */; };
 		7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BAE022390806000C5D64 /* QDTabBarViewController.m */; };
@@ -124,6 +126,12 @@
 		7EAE9039223F415400F86725 /* QDLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLiveViewController.h; sourceTree = "<group>"; };
 		7EAE903A223F415400F86725 /* QDLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLiveViewController.m; sourceTree = "<group>"; };
 		7EAE903B223F415400F86725 /* QDLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDLiveViewController.xib; sourceTree = "<group>"; };
+		7EE65B2E2254512B000E33AA /* QDMallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMallViewController.h; sourceTree = "<group>"; };
+		7EE65B2F2254512B000E33AA /* QDMallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDMallViewController.m; sourceTree = "<group>"; };
+		7EE65B302254512B000E33AA /* QDMallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDMallViewController.xib; sourceTree = "<group>"; };
+		7EE65B3322545194000E33AA /* QDCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommunityViewController.h; sourceTree = "<group>"; };
+		7EE65B3422545194000E33AA /* QDCommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommunityViewController.m; sourceTree = "<group>"; };
+		7EE65B3522545194000E33AA /* QDCommunityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDCommunityViewController.xib; sourceTree = "<group>"; };
 		7EEAA0A8224B5F9A009B6617 /* QDLoginMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLoginMainViewController.h; sourceTree = "<group>"; };
 		7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLoginMainViewController.m; sourceTree = "<group>"; };
 		7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDLoginMainViewController.xib; sourceTree = "<group>"; };
@@ -168,9 +176,6 @@
 		7EF6BACA223906ED000C5D64 /* QDBaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDBaseNavViewController.m; sourceTree = "<group>"; };
 		7EF6BACC22390712000C5D64 /* QDHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDHomeViewController.h; sourceTree = "<group>"; };
 		7EF6BACD22390712000C5D64 /* QDHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDHomeViewController.m; sourceTree = "<group>"; };
-		7EF6BAD12239071F000C5D64 /* QDMessageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMessageViewController.h; sourceTree = "<group>"; };
-		7EF6BAD22239071F000C5D64 /* QDMessageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDMessageViewController.m; sourceTree = "<group>"; };
-		7EF6BAD32239071F000C5D64 /* QDMessageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDMessageViewController.xib; sourceTree = "<group>"; };
 		7EF6BAD62239072E000C5D64 /* QDMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMineViewController.h; sourceTree = "<group>"; };
 		7EF6BAD72239072E000C5D64 /* QDMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDMineViewController.m; sourceTree = "<group>"; };
 		7EF6BAD82239072E000C5D64 /* QDMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDMineViewController.xib; sourceTree = "<group>"; };
@@ -268,6 +273,24 @@
 				7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		7EE65B382254519B000E33AA /* Community */ = {
+			isa = PBXGroup;
+			children = (
+				7EE65B39225451AB000E33AA /* Controller */,
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		7EE65B39225451AB000E33AA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EE65B3322545194000E33AA /* QDCommunityViewController.h */,
+				7EE65B3422545194000E33AA /* QDCommunityViewController.m */,
+				7EE65B3522545194000E33AA /* QDCommunityViewController.xib */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		7EEAA0AD224B5FA0009B6617 /* Login */ = {
@@ -408,12 +431,13 @@
 			isa = PBXGroup;
 			children = (
 				7EF6BAC222390599000C5D64 /* Base */,
-				7EF6BAC3223905A8000C5D64 /* Home */,
-				7EF6BAC5223905BA000C5D64 /* Message */,
-				7EF6BAC4223905B3000C5D64 /* Mine */,
-				7EEAA0AD224B5FA0009B6617 /* Login */,
 				7EEAA0B2224B5FF5009B6617 /* Push */,
 				7EEAA0C8224C685D009B6617 /* Guide */,
+				7EF6BAC3223905A8000C5D64 /* Home */,
+				7EF6BAC5223905BA000C5D64 /* Mall */,
+				7EE65B382254519B000E33AA /* Community */,
+				7EF6BAC4223905B3000C5D64 /* Mine */,
+				7EEAA0AD224B5FA0009B6617 /* Login */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -530,12 +554,12 @@
 			path = Mine;
 			sourceTree = "<group>";
 		};
-		7EF6BAC5223905BA000C5D64 /* Message */ = {
+		7EF6BAC5223905BA000C5D64 /* Mall */ = {
 			isa = PBXGroup;
 			children = (
 				7EF6BADD2239074C000C5D64 /* Controller */,
 			);
-			path = Message;
+			path = Mall;
 			sourceTree = "<group>";
 		};
 		7EF6BADC2239073C000C5D64 /* Controller */ = {
@@ -551,9 +575,9 @@
 		7EF6BADD2239074C000C5D64 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				7EF6BAD12239071F000C5D64 /* QDMessageViewController.h */,
-				7EF6BAD22239071F000C5D64 /* QDMessageViewController.m */,
-				7EF6BAD32239071F000C5D64 /* QDMessageViewController.xib */,
+				7EE65B2E2254512B000E33AA /* QDMallViewController.h */,
+				7EE65B2F2254512B000E33AA /* QDMallViewController.m */,
+				7EE65B302254512B000E33AA /* QDMallViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -758,14 +782,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EE65B322254512B000E33AA /* QDMallViewController.xib in Resources */,
 				7EEAA0BD224B684F009B6617 /* QDBaseTableViewCell.xib in Resources */,
 				7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */,
 				7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */,
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
 				7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */,
+				7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */,
 				7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */,
-				7EF6BAD52239071F000C5D64 /* QDMessageViewController.xib in Resources */,
 				7EAE903D223F415400F86725 /* QDLiveViewController.xib in Resources */,
 				7E49884622421FC200FC87A0 /* Localizable.strings in Resources */,
 				7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */,
@@ -882,7 +907,6 @@
 				7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */,
 				7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */,
 				7EF6BAEA223922AA000C5D64 /* UIColor+QDExtension.m in Sources */,
-				7EF6BAD42239071F000C5D64 /* QDMessageViewController.m in Sources */,
 				7EF6BAE72239212F000C5D64 /* UIImage+QDExtension.m in Sources */,
 				7EF6BB0F223B591F000C5D64 /* QDSeverManager.m in Sources */,
 				7EF6BB0B223B512C000C5D64 /* QDBaseSever.m in Sources */,
@@ -894,9 +918,11 @@
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
 				7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */,
 				7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */,
+				7EE65B312254512B000E33AA /* QDMallViewController.m in Sources */,
 				7EF6BB01223A8A48000C5D64 /* UITextField+QDExtension.m in Sources */,
 				7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */,
 				7EF6BAFE223A882D000C5D64 /* UITextView+QDExtension.m in Sources */,
+				7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */,
 				7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */,
 				7EF6BB04223A8AD6000C5D64 /* UIButton+QDExtension.m in Sources */,
 				7EAE903C223F415400F86725 /* QDLiveViewController.m in Sources */,
