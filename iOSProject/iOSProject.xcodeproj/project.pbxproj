@@ -28,6 +28,10 @@
 		7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */; };
 		7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */; };
 		7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */; };
+		7E8E371F225A5C0B007EC2F4 /* QDNews4TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E371A225A5C0A007EC2F4 /* QDNews4TableViewCell.m */; };
+		7E8E3720225A5C0B007EC2F4 /* QDNews3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E371B225A5C0A007EC2F4 /* QDNews3TableViewCell.xib */; };
+		7E8E3721225A5C0B007EC2F4 /* QDNews4TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E371C225A5C0A007EC2F4 /* QDNews4TableViewCell.xib */; };
+		7E8E3722225A5C0B007EC2F4 /* QDNews3TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E371E225A5C0B007EC2F4 /* QDNews3TableViewCell.m */; };
 		7EB809792259D6F900C4629F /* QDSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB809772259D6F900C4629F /* QDSelectedView.m */; };
 		7EB8097C2259D71C00C4629F /* QDBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8097A2259D71C00C4629F /* QDBaseView.m */; };
 		7EB8098E225A355500C4629F /* QDNews1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8098B225A355500C4629F /* QDNews1TableViewCell.m */; };
@@ -136,6 +140,12 @@
 		7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDAgoreLiveViewController.h; sourceTree = "<group>"; };
 		7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDAgoreLiveViewController.m; sourceTree = "<group>"; };
 		7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDAgoreLiveViewController.xib; sourceTree = "<group>"; };
+		7E8E3719225A5C0A007EC2F4 /* QDNews4TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNews4TableViewCell.h; sourceTree = "<group>"; };
+		7E8E371A225A5C0A007EC2F4 /* QDNews4TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNews4TableViewCell.m; sourceTree = "<group>"; };
+		7E8E371B225A5C0A007EC2F4 /* QDNews3TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDNews3TableViewCell.xib; sourceTree = "<group>"; };
+		7E8E371C225A5C0A007EC2F4 /* QDNews4TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDNews4TableViewCell.xib; sourceTree = "<group>"; };
+		7E8E371D225A5C0A007EC2F4 /* QDNews3TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNews3TableViewCell.h; sourceTree = "<group>"; };
+		7E8E371E225A5C0B007EC2F4 /* QDNews3TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNews3TableViewCell.m; sourceTree = "<group>"; };
 		7EB809772259D6F900C4629F /* QDSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDSelectedView.m; sourceTree = "<group>"; };
 		7EB809782259D6F900C4629F /* QDSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDSelectedView.h; sourceTree = "<group>"; };
 		7EB8097A2259D71C00C4629F /* QDBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDBaseView.m; sourceTree = "<group>"; };
@@ -340,6 +350,12 @@
 				7EB8099B225A464C00C4629F /* QDNews2TableViewCell.h */,
 				7EB8099A225A464C00C4629F /* QDNews2TableViewCell.m */,
 				7EB80999225A464C00C4629F /* QDNews2TableViewCell.xib */,
+				7E8E371D225A5C0A007EC2F4 /* QDNews3TableViewCell.h */,
+				7E8E371E225A5C0B007EC2F4 /* QDNews3TableViewCell.m */,
+				7E8E371B225A5C0A007EC2F4 /* QDNews3TableViewCell.xib */,
+				7E8E3719225A5C0A007EC2F4 /* QDNews4TableViewCell.h */,
+				7E8E371A225A5C0A007EC2F4 /* QDNews4TableViewCell.m */,
+				7E8E371C225A5C0A007EC2F4 /* QDNews4TableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -874,9 +890,11 @@
 				7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */,
 				7EB8098F225A355500C4629F /* QDNews1TableViewCell.xib in Resources */,
 				7EE65B502255AA53000E33AA /* data.json in Resources */,
+				7E8E3720225A5C0B007EC2F4 /* QDNews3TableViewCell.xib in Resources */,
 				7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */,
 				7EE65B492254CAE6000E33AA /* QDKSVideoViewController.xib in Resources */,
 				7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */,
+				7E8E3721225A5C0B007EC2F4 /* QDNews4TableViewCell.xib in Resources */,
 				7E49884622421FC200FC87A0 /* Localizable.strings in Resources */,
 				7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */,
 				7EEAA0B7224B604B009B6617 /* QDBaseWebViewViewController.xib in Resources */,
@@ -988,6 +1006,7 @@
 				7EF6BAED22392501000C5D64 /* UIView+QDExtension.m in Sources */,
 				7EF6BA942238F44F000C5D64 /* main.m in Sources */,
 				7EF6BAC8223906CB000C5D64 /* QDBaseViewController.m in Sources */,
+				7E8E3722225A5C0B007EC2F4 /* QDNews3TableViewCell.m in Sources */,
 				7EF6BB07223B4FD9000C5D64 /* QDCountDownButton.m in Sources */,
 				7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */,
 				7EEAA0BC224B684F009B6617 /* QDBaseTableViewCell.m in Sources */,
@@ -1019,6 +1038,7 @@
 				7EF6BAFE223A882D000C5D64 /* UITextView+QDExtension.m in Sources */,
 				7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */,
 				7EE65B482254CAE5000E33AA /* QDKSVideoViewController.m in Sources */,
+				7E8E371F225A5C0B007EC2F4 /* QDNews4TableViewCell.m in Sources */,
 				7EB809792259D6F900C4629F /* QDSelectedView.m in Sources */,
 				7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */,
 				7EF6BB04223A8AD6000C5D64 /* UIButton+QDExtension.m in Sources */,
