@@ -28,12 +28,25 @@
 		7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */; };
 		7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */; };
 		7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */; };
-		7EAE903C223F415400F86725 /* QDLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EAE903A223F415400F86725 /* QDLiveViewController.m */; };
-		7EAE903D223F415400F86725 /* QDLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EAE903B223F415400F86725 /* QDLiveViewController.xib */; };
+		7EB809792259D6F900C4629F /* QDSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB809772259D6F900C4629F /* QDSelectedView.m */; };
+		7EB8097C2259D71C00C4629F /* QDBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8097A2259D71C00C4629F /* QDBaseView.m */; };
+		7EB8098E225A355500C4629F /* QDNews1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8098B225A355500C4629F /* QDNews1TableViewCell.m */; };
+		7EB8098F225A355500C4629F /* QDNews1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EB8098C225A355500C4629F /* QDNews1TableViewCell.xib */; };
+		7EB8099C225A464C00C4629F /* QDNews2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EB80999225A464C00C4629F /* QDNews2TableViewCell.xib */; };
+		7EB8099D225A464C00C4629F /* QDNews2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8099A225A464C00C4629F /* QDNews2TableViewCell.m */; };
+		7EB809A1225A465700C4629F /* QDDateSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8099F225A465700C4629F /* QDDateSelectedView.m */; };
 		7EE65B312254512B000E33AA /* QDMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B2F2254512B000E33AA /* QDMallViewController.m */; };
 		7EE65B322254512B000E33AA /* QDMallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B302254512B000E33AA /* QDMallViewController.xib */; };
 		7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B3422545194000E33AA /* QDCommunityViewController.m */; };
 		7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B3522545194000E33AA /* QDCommunityViewController.xib */; };
+		7EE65B482254CAE5000E33AA /* QDKSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B462254CAE5000E33AA /* QDKSVideoViewController.m */; };
+		7EE65B492254CAE6000E33AA /* QDKSVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B472254CAE5000E33AA /* QDKSVideoViewController.xib */; };
+		7EE65B4C2255AA28000E33AA /* ZFTableViewCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B4A2255AA28000E33AA /* ZFTableViewCellLayout.m */; };
+		7EE65B502255AA53000E33AA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B4D2255AA53000E33AA /* data.json */; };
+		7EE65B512255AA53000E33AA /* ZFTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B4F2255AA53000E33AA /* ZFTableData.m */; };
+		7EE65B542255AA8B000E33AA /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B522255AA8B000E33AA /* NSString+Size.m */; };
+		7EE65B572255AB1C000E33AA /* ZFDouYinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B552255AB1B000E33AA /* ZFDouYinCell.m */; };
+		7EE65B5A2255AB2E000E33AA /* ZFDouYinControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B592255AB2E000E33AA /* ZFDouYinControlView.m */; };
 		7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */; };
 		7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */; };
 		7EEAA0B1224B5FF1009B6617 /* QDPushRouteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0B0224B5FF1009B6617 /* QDPushRouteHelper.m */; };
@@ -123,15 +136,38 @@
 		7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDAgoreLiveViewController.h; sourceTree = "<group>"; };
 		7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDAgoreLiveViewController.m; sourceTree = "<group>"; };
 		7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDAgoreLiveViewController.xib; sourceTree = "<group>"; };
-		7EAE9039223F415400F86725 /* QDLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLiveViewController.h; sourceTree = "<group>"; };
-		7EAE903A223F415400F86725 /* QDLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLiveViewController.m; sourceTree = "<group>"; };
-		7EAE903B223F415400F86725 /* QDLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDLiveViewController.xib; sourceTree = "<group>"; };
+		7EB809772259D6F900C4629F /* QDSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDSelectedView.m; sourceTree = "<group>"; };
+		7EB809782259D6F900C4629F /* QDSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDSelectedView.h; sourceTree = "<group>"; };
+		7EB8097A2259D71C00C4629F /* QDBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDBaseView.m; sourceTree = "<group>"; };
+		7EB8097B2259D71C00C4629F /* QDBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDBaseView.h; sourceTree = "<group>"; };
+		7EB8098B225A355500C4629F /* QDNews1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNews1TableViewCell.m; sourceTree = "<group>"; };
+		7EB8098C225A355500C4629F /* QDNews1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDNews1TableViewCell.xib; sourceTree = "<group>"; };
+		7EB8098D225A355500C4629F /* QDNews1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNews1TableViewCell.h; sourceTree = "<group>"; };
+		7EB80999225A464C00C4629F /* QDNews2TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDNews2TableViewCell.xib; sourceTree = "<group>"; };
+		7EB8099A225A464C00C4629F /* QDNews2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNews2TableViewCell.m; sourceTree = "<group>"; };
+		7EB8099B225A464C00C4629F /* QDNews2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNews2TableViewCell.h; sourceTree = "<group>"; };
+		7EB8099F225A465700C4629F /* QDDateSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDDateSelectedView.m; sourceTree = "<group>"; };
+		7EB809A0225A465700C4629F /* QDDateSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDDateSelectedView.h; sourceTree = "<group>"; };
 		7EE65B2E2254512B000E33AA /* QDMallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMallViewController.h; sourceTree = "<group>"; };
 		7EE65B2F2254512B000E33AA /* QDMallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDMallViewController.m; sourceTree = "<group>"; };
 		7EE65B302254512B000E33AA /* QDMallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDMallViewController.xib; sourceTree = "<group>"; };
 		7EE65B3322545194000E33AA /* QDCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommunityViewController.h; sourceTree = "<group>"; };
 		7EE65B3422545194000E33AA /* QDCommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommunityViewController.m; sourceTree = "<group>"; };
 		7EE65B3522545194000E33AA /* QDCommunityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDCommunityViewController.xib; sourceTree = "<group>"; };
+		7EE65B452254CAE5000E33AA /* QDKSVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDKSVideoViewController.h; sourceTree = "<group>"; };
+		7EE65B462254CAE5000E33AA /* QDKSVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDKSVideoViewController.m; sourceTree = "<group>"; };
+		7EE65B472254CAE5000E33AA /* QDKSVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDKSVideoViewController.xib; sourceTree = "<group>"; };
+		7EE65B4A2255AA28000E33AA /* ZFTableViewCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCellLayout.m; sourceTree = "<group>"; };
+		7EE65B4B2255AA28000E33AA /* ZFTableViewCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellLayout.h; sourceTree = "<group>"; };
+		7EE65B4D2255AA53000E33AA /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		7EE65B4E2255AA53000E33AA /* ZFTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableData.h; sourceTree = "<group>"; };
+		7EE65B4F2255AA53000E33AA /* ZFTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableData.m; sourceTree = "<group>"; };
+		7EE65B522255AA8B000E33AA /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
+		7EE65B532255AA8B000E33AA /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
+		7EE65B552255AB1B000E33AA /* ZFDouYinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDouYinCell.m; sourceTree = "<group>"; };
+		7EE65B562255AB1C000E33AA /* ZFDouYinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouYinCell.h; sourceTree = "<group>"; };
+		7EE65B582255AB2E000E33AA /* ZFDouYinControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouYinControlView.h; sourceTree = "<group>"; };
+		7EE65B592255AB2E000E33AA /* ZFDouYinControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDouYinControlView.m; sourceTree = "<group>"; };
 		7EEAA0A8224B5F9A009B6617 /* QDLoginMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLoginMainViewController.h; sourceTree = "<group>"; };
 		7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLoginMainViewController.m; sourceTree = "<group>"; };
 		7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDLoginMainViewController.xib; sourceTree = "<group>"; };
@@ -262,17 +298,59 @@
 		7E4988272241DD3100FC87A0 /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				7EAE9039223F415400F86725 /* QDLiveViewController.h */,
-				7EAE903A223F415400F86725 /* QDLiveViewController.m */,
-				7EAE903B223F415400F86725 /* QDLiveViewController.xib */,
 				7E6779C4223FA4C6008F3334 /* QDIJKLiveViewController.h */,
 				7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */,
 				7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */,
 				7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */,
 				7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */,
 				7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */,
+				7EE65B452254CAE5000E33AA /* QDKSVideoViewController.h */,
+				7EE65B462254CAE5000E33AA /* QDKSVideoViewController.m */,
+				7EE65B472254CAE5000E33AA /* QDKSVideoViewController.xib */,
+				7EE65B4B2255AA28000E33AA /* ZFTableViewCellLayout.h */,
+				7EE65B4A2255AA28000E33AA /* ZFTableViewCellLayout.m */,
+				7EE65B582255AB2E000E33AA /* ZFDouYinControlView.h */,
+				7EE65B592255AB2E000E33AA /* ZFDouYinControlView.m */,
+				7EE65B562255AB1C000E33AA /* ZFDouYinCell.h */,
+				7EE65B552255AB1B000E33AA /* ZFDouYinCell.m */,
+				7EE65B532255AA8B000E33AA /* NSString+Size.h */,
+				7EE65B522255AA8B000E33AA /* NSString+Size.m */,
+				7EE65B4D2255AA53000E33AA /* data.json */,
+				7EE65B4E2255AA53000E33AA /* ZFTableData.h */,
+				7EE65B4F2255AA53000E33AA /* ZFTableData.m */,
 			);
 			path = Video;
+			sourceTree = "<group>";
+		};
+		7EB809762259D6F900C4629F /* SelectedView */ = {
+			isa = PBXGroup;
+			children = (
+				7EB809772259D6F900C4629F /* QDSelectedView.m */,
+				7EB809782259D6F900C4629F /* QDSelectedView.h */,
+			);
+			path = SelectedView;
+			sourceTree = "<group>";
+		};
+		7EB8098A225A355500C4629F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				7EB8098B225A355500C4629F /* QDNews1TableViewCell.m */,
+				7EB8098C225A355500C4629F /* QDNews1TableViewCell.xib */,
+				7EB8098D225A355500C4629F /* QDNews1TableViewCell.h */,
+				7EB8099B225A464C00C4629F /* QDNews2TableViewCell.h */,
+				7EB8099A225A464C00C4629F /* QDNews2TableViewCell.m */,
+				7EB80999225A464C00C4629F /* QDNews2TableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		7EB8099E225A465700C4629F /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				7EB8099F225A465700C4629F /* QDDateSelectedView.m */,
+				7EB809A0225A465700C4629F /* QDDateSelectedView.h */,
+			);
+			path = Date;
 			sourceTree = "<group>";
 		};
 		7EE65B382254519B000E33AA /* Community */ = {
@@ -339,6 +417,8 @@
 		7EEAA0BE224B6854009B6617 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				7EB8097B2259D71C00C4629F /* QDBaseView.h */,
+				7EB8097A2259D71C00C4629F /* QDBaseView.m */,
 				7EEAA0B9224B684F009B6617 /* QDBaseTableViewCell.h */,
 				7EEAA0BA224B684F009B6617 /* QDBaseTableViewCell.m */,
 				7EEAA0BB224B684F009B6617 /* QDBaseTableViewCell.xib */,
@@ -595,6 +675,9 @@
 		7EF6BAE22239086C000C5D64 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				7EB8099E225A465700C4629F /* Date */,
+				7EB8098A225A355500C4629F /* Cell */,
+				7EB809762259D6F900C4629F /* SelectedView */,
 				7E4988272241DD3100FC87A0 /* Video */,
 				7E4988212241DAE900FC87A0 /* QDCountDownButton */,
 			);
@@ -789,15 +872,18 @@
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
 				7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */,
+				7EB8098F225A355500C4629F /* QDNews1TableViewCell.xib in Resources */,
+				7EE65B502255AA53000E33AA /* data.json in Resources */,
 				7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */,
+				7EE65B492254CAE6000E33AA /* QDKSVideoViewController.xib in Resources */,
 				7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */,
-				7EAE903D223F415400F86725 /* QDLiveViewController.xib in Resources */,
 				7E49884622421FC200FC87A0 /* Localizable.strings in Resources */,
 				7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */,
 				7EEAA0B7224B604B009B6617 /* QDBaseWebViewViewController.xib in Resources */,
 				7EF6BA8E2238F44F000C5D64 /* Assets.xcassets in Resources */,
 				7E49884022421EBB00FC87A0 /* InfoPlist.strings in Resources */,
 				7E498830224218ED00FC87A0 /* QDHomeViewController.xib in Resources */,
+				7EB8099C225A464C00C4629F /* QDNews2TableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -897,12 +983,16 @@
 				7EEAA0D6224C6A9B009B6617 /* QDADViewController.m in Sources */,
 				7EEAA0C1224B686A009B6617 /* QDBaseModel.m in Sources */,
 				7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */,
+				7EE65B572255AB1C000E33AA /* ZFDouYinCell.m in Sources */,
+				7EB8097C2259D71C00C4629F /* QDBaseView.m in Sources */,
 				7EF6BAED22392501000C5D64 /* UIView+QDExtension.m in Sources */,
 				7EF6BA942238F44F000C5D64 /* main.m in Sources */,
 				7EF6BAC8223906CB000C5D64 /* QDBaseViewController.m in Sources */,
 				7EF6BB07223B4FD9000C5D64 /* QDCountDownButton.m in Sources */,
 				7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */,
 				7EEAA0BC224B684F009B6617 /* QDBaseTableViewCell.m in Sources */,
+				7EE65B542255AA8B000E33AA /* NSString+Size.m in Sources */,
+				7EE65B5A2255AB2E000E33AA /* ZFDouYinControlView.m in Sources */,
 				7E6779C7223FA4C6008F3334 /* QDIJKLiveViewController.m in Sources */,
 				7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */,
 				7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */,
@@ -912,7 +1002,10 @@
 				7EF6BB0B223B512C000C5D64 /* QDBaseSever.m in Sources */,
 				7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */,
 				7EEAA0DC224C7AAF009B6617 /* QDUserDefault.m in Sources */,
+				7EB8098E225A355500C4629F /* QDNews1TableViewCell.m in Sources */,
 				7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */,
+				7EE65B512255AA53000E33AA /* ZFTableData.m in Sources */,
+				7EB8099D225A464C00C4629F /* QDNews2TableViewCell.m in Sources */,
 				7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */,
 				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
@@ -920,12 +1013,15 @@
 				7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */,
 				7EE65B312254512B000E33AA /* QDMallViewController.m in Sources */,
 				7EF6BB01223A8A48000C5D64 /* UITextField+QDExtension.m in Sources */,
+				7EB809A1225A465700C4629F /* QDDateSelectedView.m in Sources */,
+				7EE65B4C2255AA28000E33AA /* ZFTableViewCellLayout.m in Sources */,
 				7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */,
 				7EF6BAFE223A882D000C5D64 /* UITextView+QDExtension.m in Sources */,
 				7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */,
+				7EE65B482254CAE5000E33AA /* QDKSVideoViewController.m in Sources */,
+				7EB809792259D6F900C4629F /* QDSelectedView.m in Sources */,
 				7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */,
 				7EF6BB04223A8AD6000C5D64 /* UIButton+QDExtension.m in Sources */,
-				7EAE903C223F415400F86725 /* QDLiveViewController.m in Sources */,
 				7EEAA0B1224B5FF1009B6617 /* QDPushRouteHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

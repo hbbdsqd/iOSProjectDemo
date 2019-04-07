@@ -1,8 +1,8 @@
 //
-//  QDLiveViewController.h
+//  QDKSVideoViewController.h
 //  iOSProject
 //
-//  Created by 苏秋东 on 2019/3/18.
+//  Created by 苏秋东 on 2019/4/3.
 //  Copyright © 2019 苏秋东. All rights reserved.
 //
 
@@ -10,8 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface QDLiveViewController : QDBaseViewController
-@property (nonatomic,copy) NSString *urlStr;
+@interface QDKSVideoViewController : QDBaseViewController
+
+- (void)playTheIndex:(NSInteger)index;
 @end
 
 NS_ASSUME_NONNULL_END

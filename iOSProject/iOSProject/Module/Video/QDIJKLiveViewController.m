@@ -8,9 +8,10 @@
 
 #import "QDIJKLiveViewController.h"
 #import <ZFPlayer/ZFPlayer.h>
-#import <ZFPlayer/ZFAVPlayerManager.h>
-#import <ZFPlayer/ZFIJKPlayerManager.h>
+//#import <ZFPlayer/ZFAVPlayerManager.h>
+//#import <ZFPlayer/ZFIJKPlayerManager.h>
 #import <ZFPlayer/ZFPlayerControlView.h>
+#import <ZFPlayer/KSMediaPlayerManager.h>
 #import "UIImageView+ZFCache.h"
 #import "ZFUtilities.h"
 
@@ -32,7 +33,7 @@
     //    KSMediaPlayerManager *playerManager = [[KSMediaPlayerManager alloc] init];
     
 //    [self.imageView sd_setImageWithURL:[NSURL URLWithString:kVideoCover]];
-    ZFIJKPlayerManager *playerManager = [[ZFIJKPlayerManager alloc] init];
+    KSMediaPlayerManager *playerManager = [[KSMediaPlayerManager alloc] init];
     
     /// 播放器相关
     self.player = [ZFPlayerController playerWithPlayerManager:playerManager containerView:self.imageView];

@@ -41,16 +41,16 @@
     return YES;
 }
 - (void)webViewDidStartLoad:(UIWebView *)webView API_DEPRECATED("No longer supported.", ios(2.0, 12.0)){
-    
+    [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 }
 - (void)webViewDidFinishLoad:(UIWebView *)webView API_DEPRECATED("No longer supported.", ios(2.0, 12.0)){
     NSString *title = [webView stringByEvaluatingJavaScriptFromString:@"document.title"];
     if(![CommonTools isBlankString:title]){
         self.title = title;
     }
+    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
 }
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error API_DEPRECATED("No longer supported.", ios(2.0, 12.0)){
-    
+    [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
 }
-
 @end
