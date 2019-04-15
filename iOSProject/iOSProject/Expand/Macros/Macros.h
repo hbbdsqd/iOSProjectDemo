@@ -10,7 +10,7 @@
 #define Macros_h
 
 #pragma mark - 引导图版本控制
-#define QDGuideVersion @"1.0.0"
+#define QDGuideVersion @"1.0.1"
 
 #pragma mark - 字体
 #define QDGetFont(fontSize) [UIFont systemFontOfSize:fontSize]
