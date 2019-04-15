@@ -24,10 +24,6 @@
 		7E6779B8223F952C008F3334 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779B7223F952C008F3334 /* AudioToolbox.framework */; };
 		7E6779BA223F953C008F3334 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779B9223F953C008F3334 /* libbz2.tbd */; };
 		7E6779BC223F9543008F3334 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779BB223F9543008F3334 /* libz.tbd */; };
-		7E6779C7223FA4C6008F3334 /* QDIJKLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */; };
-		7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */; };
-		7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */; };
-		7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */; };
 		7E8E371F225A5C0B007EC2F4 /* QDNews4TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E371A225A5C0A007EC2F4 /* QDNews4TableViewCell.m */; };
 		7E8E3720225A5C0B007EC2F4 /* QDNews3TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E371B225A5C0A007EC2F4 /* QDNews3TableViewCell.xib */; };
 		7E8E3721225A5C0B007EC2F4 /* QDNews4TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E371C225A5C0A007EC2F4 /* QDNews4TableViewCell.xib */; };
@@ -43,14 +39,6 @@
 		7EE65B322254512B000E33AA /* QDMallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B302254512B000E33AA /* QDMallViewController.xib */; };
 		7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B3422545194000E33AA /* QDCommunityViewController.m */; };
 		7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B3522545194000E33AA /* QDCommunityViewController.xib */; };
-		7EE65B482254CAE5000E33AA /* QDKSVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B462254CAE5000E33AA /* QDKSVideoViewController.m */; };
-		7EE65B492254CAE6000E33AA /* QDKSVideoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B472254CAE5000E33AA /* QDKSVideoViewController.xib */; };
-		7EE65B4C2255AA28000E33AA /* ZFTableViewCellLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B4A2255AA28000E33AA /* ZFTableViewCellLayout.m */; };
-		7EE65B502255AA53000E33AA /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B4D2255AA53000E33AA /* data.json */; };
-		7EE65B512255AA53000E33AA /* ZFTableData.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B4F2255AA53000E33AA /* ZFTableData.m */; };
-		7EE65B542255AA8B000E33AA /* NSString+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B522255AA8B000E33AA /* NSString+Size.m */; };
-		7EE65B572255AB1C000E33AA /* ZFDouYinCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B552255AB1B000E33AA /* ZFDouYinCell.m */; };
-		7EE65B5A2255AB2E000E33AA /* ZFDouYinControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B592255AB2E000E33AA /* ZFDouYinControlView.m */; };
 		7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */; };
 		7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */; };
 		7EEAA0B1224B5FF1009B6617 /* QDPushRouteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0B0224B5FF1009B6617 /* QDPushRouteHelper.m */; };
@@ -134,12 +122,6 @@
 		7E6779B7223F952C008F3334 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7E6779B9223F953C008F3334 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		7E6779BB223F9543008F3334 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		7E6779C4223FA4C6008F3334 /* QDIJKLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDIJKLiveViewController.h; sourceTree = "<group>"; };
-		7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDIJKLiveViewController.m; sourceTree = "<group>"; };
-		7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDIJKLiveViewController.xib; sourceTree = "<group>"; };
-		7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDAgoreLiveViewController.h; sourceTree = "<group>"; };
-		7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDAgoreLiveViewController.m; sourceTree = "<group>"; };
-		7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDAgoreLiveViewController.xib; sourceTree = "<group>"; };
 		7E8E3719225A5C0A007EC2F4 /* QDNews4TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNews4TableViewCell.h; sourceTree = "<group>"; };
 		7E8E371A225A5C0A007EC2F4 /* QDNews4TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNews4TableViewCell.m; sourceTree = "<group>"; };
 		7E8E371B225A5C0A007EC2F4 /* QDNews3TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QDNews3TableViewCell.xib; sourceTree = "<group>"; };
@@ -164,20 +146,6 @@
 		7EE65B3322545194000E33AA /* QDCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommunityViewController.h; sourceTree = "<group>"; };
 		7EE65B3422545194000E33AA /* QDCommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommunityViewController.m; sourceTree = "<group>"; };
 		7EE65B3522545194000E33AA /* QDCommunityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDCommunityViewController.xib; sourceTree = "<group>"; };
-		7EE65B452254CAE5000E33AA /* QDKSVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDKSVideoViewController.h; sourceTree = "<group>"; };
-		7EE65B462254CAE5000E33AA /* QDKSVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDKSVideoViewController.m; sourceTree = "<group>"; };
-		7EE65B472254CAE5000E33AA /* QDKSVideoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDKSVideoViewController.xib; sourceTree = "<group>"; };
-		7EE65B4A2255AA28000E33AA /* ZFTableViewCellLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableViewCellLayout.m; sourceTree = "<group>"; };
-		7EE65B4B2255AA28000E33AA /* ZFTableViewCellLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableViewCellLayout.h; sourceTree = "<group>"; };
-		7EE65B4D2255AA53000E33AA /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		7EE65B4E2255AA53000E33AA /* ZFTableData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFTableData.h; sourceTree = "<group>"; };
-		7EE65B4F2255AA53000E33AA /* ZFTableData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFTableData.m; sourceTree = "<group>"; };
-		7EE65B522255AA8B000E33AA /* NSString+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Size.m"; sourceTree = "<group>"; };
-		7EE65B532255AA8B000E33AA /* NSString+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Size.h"; sourceTree = "<group>"; };
-		7EE65B552255AB1B000E33AA /* ZFDouYinCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDouYinCell.m; sourceTree = "<group>"; };
-		7EE65B562255AB1C000E33AA /* ZFDouYinCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouYinCell.h; sourceTree = "<group>"; };
-		7EE65B582255AB2E000E33AA /* ZFDouYinControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFDouYinControlView.h; sourceTree = "<group>"; };
-		7EE65B592255AB2E000E33AA /* ZFDouYinControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFDouYinControlView.m; sourceTree = "<group>"; };
 		7EEAA0A8224B5F9A009B6617 /* QDLoginMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLoginMainViewController.h; sourceTree = "<group>"; };
 		7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLoginMainViewController.m; sourceTree = "<group>"; };
 		7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDLoginMainViewController.xib; sourceTree = "<group>"; };
@@ -308,26 +276,6 @@
 		7E4988272241DD3100FC87A0 /* Video */ = {
 			isa = PBXGroup;
 			children = (
-				7E6779C4223FA4C6008F3334 /* QDIJKLiveViewController.h */,
-				7E6779C5223FA4C6008F3334 /* QDIJKLiveViewController.m */,
-				7E6779C6223FA4C6008F3334 /* QDIJKLiveViewController.xib */,
-				7E6779C92240A35A008F3334 /* QDAgoreLiveViewController.h */,
-				7E6779CA2240A35A008F3334 /* QDAgoreLiveViewController.m */,
-				7E6779CB2240A35A008F3334 /* QDAgoreLiveViewController.xib */,
-				7EE65B452254CAE5000E33AA /* QDKSVideoViewController.h */,
-				7EE65B462254CAE5000E33AA /* QDKSVideoViewController.m */,
-				7EE65B472254CAE5000E33AA /* QDKSVideoViewController.xib */,
-				7EE65B4B2255AA28000E33AA /* ZFTableViewCellLayout.h */,
-				7EE65B4A2255AA28000E33AA /* ZFTableViewCellLayout.m */,
-				7EE65B582255AB2E000E33AA /* ZFDouYinControlView.h */,
-				7EE65B592255AB2E000E33AA /* ZFDouYinControlView.m */,
-				7EE65B562255AB1C000E33AA /* ZFDouYinCell.h */,
-				7EE65B552255AB1B000E33AA /* ZFDouYinCell.m */,
-				7EE65B532255AA8B000E33AA /* NSString+Size.h */,
-				7EE65B522255AA8B000E33AA /* NSString+Size.m */,
-				7EE65B4D2255AA53000E33AA /* data.json */,
-				7EE65B4E2255AA53000E33AA /* ZFTableData.h */,
-				7EE65B4F2255AA53000E33AA /* ZFTableData.m */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -781,7 +729,6 @@
 				7EF6BA7B2238F44E000C5D64 /* Frameworks */,
 				7EF6BA7C2238F44E000C5D64 /* Resources */,
 				7D668C035F2D2D3CBC94CC30 /* [CP] Copy Pods Resources */,
-				CF206D5E232C3AAB4DCD6DA7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -883,20 +830,16 @@
 			files = (
 				7EE65B322254512B000E33AA /* QDMallViewController.xib in Resources */,
 				7EEAA0BD224B684F009B6617 /* QDBaseTableViewCell.xib in Resources */,
-				7E6779CD2240A35A008F3334 /* QDAgoreLiveViewController.xib in Resources */,
 				7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */,
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
 				7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */,
 				7EB8098F225A355500C4629F /* QDNews1TableViewCell.xib in Resources */,
-				7EE65B502255AA53000E33AA /* data.json in Resources */,
 				7E8E3720225A5C0B007EC2F4 /* QDNews3TableViewCell.xib in Resources */,
 				7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */,
-				7EE65B492254CAE6000E33AA /* QDKSVideoViewController.xib in Resources */,
 				7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */,
 				7E8E3721225A5C0B007EC2F4 /* QDNews4TableViewCell.xib in Resources */,
 				7E49884622421FC200FC87A0 /* Localizable.strings in Resources */,
-				7E6779C8223FA4C6008F3334 /* QDIJKLiveViewController.xib in Resources */,
 				7EEAA0B7224B604B009B6617 /* QDBaseWebViewViewController.xib in Resources */,
 				7EF6BA8E2238F44F000C5D64 /* Assets.xcassets in Resources */,
 				7E49884022421EBB00FC87A0 /* InfoPlist.strings in Resources */,
@@ -951,7 +894,6 @@
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
 				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_CONFIGURATION_BUILD_DIR}/MWPhotoBrowser/MWPhotoBrowser.bundle",
-				"${PODS_ROOT}/RongCloudIM/RongCloudIM/RCConfig.plist",
 				"${PODS_ROOT}/ZFPlayer/ZFPlayer/Classes/ControlView/ZFPlayer.bundle",
 				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required/ShareSDK.bundle",
 				"${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Optional/ShareSDKUI.bundle",
@@ -962,7 +904,6 @@
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MWPhotoBrowser.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/RCConfig.plist",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZFPlayer.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDK.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ShareSDKUI.bundle",
@@ -970,24 +911,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CF206D5E232C3AAB4DCD6DA7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject-frameworks.sh",
-				"${PODS_ROOT}/PLPlayerKit/Pod/Library/PLPlayerKit.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PLPlayerKit.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSProject/Pods-iOSProject-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1001,7 +924,6 @@
 				7EEAA0D6224C6A9B009B6617 /* QDADViewController.m in Sources */,
 				7EEAA0C1224B686A009B6617 /* QDBaseModel.m in Sources */,
 				7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */,
-				7EE65B572255AB1C000E33AA /* ZFDouYinCell.m in Sources */,
 				7EB8097C2259D71C00C4629F /* QDBaseView.m in Sources */,
 				7EF6BAED22392501000C5D64 /* UIView+QDExtension.m in Sources */,
 				7EF6BA942238F44F000C5D64 /* main.m in Sources */,
@@ -1010,11 +932,7 @@
 				7EF6BB07223B4FD9000C5D64 /* QDCountDownButton.m in Sources */,
 				7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */,
 				7EEAA0BC224B684F009B6617 /* QDBaseTableViewCell.m in Sources */,
-				7EE65B542255AA8B000E33AA /* NSString+Size.m in Sources */,
-				7EE65B5A2255AB2E000E33AA /* ZFDouYinControlView.m in Sources */,
-				7E6779C7223FA4C6008F3334 /* QDIJKLiveViewController.m in Sources */,
 				7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */,
-				7E6779CC2240A35A008F3334 /* QDAgoreLiveViewController.m in Sources */,
 				7EF6BAEA223922AA000C5D64 /* UIColor+QDExtension.m in Sources */,
 				7EF6BAE72239212F000C5D64 /* UIImage+QDExtension.m in Sources */,
 				7EF6BB0F223B591F000C5D64 /* QDSeverManager.m in Sources */,
@@ -1023,7 +941,6 @@
 				7EEAA0DC224C7AAF009B6617 /* QDUserDefault.m in Sources */,
 				7EB8098E225A355500C4629F /* QDNews1TableViewCell.m in Sources */,
 				7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */,
-				7EE65B512255AA53000E33AA /* ZFTableData.m in Sources */,
 				7EB8099D225A464C00C4629F /* QDNews2TableViewCell.m in Sources */,
 				7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */,
 				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,
@@ -1033,11 +950,9 @@
 				7EE65B312254512B000E33AA /* QDMallViewController.m in Sources */,
 				7EF6BB01223A8A48000C5D64 /* UITextField+QDExtension.m in Sources */,
 				7EB809A1225A465700C4629F /* QDDateSelectedView.m in Sources */,
-				7EE65B4C2255AA28000E33AA /* ZFTableViewCellLayout.m in Sources */,
 				7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */,
 				7EF6BAFE223A882D000C5D64 /* UITextView+QDExtension.m in Sources */,
 				7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */,
-				7EE65B482254CAE5000E33AA /* QDKSVideoViewController.m in Sources */,
 				7E8E371F225A5C0B007EC2F4 /* QDNews4TableViewCell.m in Sources */,
 				7EB809792259D6F900C4629F /* QDSelectedView.m in Sources */,
 				7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */,
@@ -1249,10 +1164,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1275,10 +1187,7 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1292,11 +1201,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1311,11 +1216,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1329,11 +1230,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1347,11 +1244,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

@@ -14,7 +14,6 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - AgoraRtcEngine_iOS (2.4.0.1)
   - BaiduMapKit (4.3.0)
   - DACircularProgress (2.3.1)
   - FDFullscreenPopGesture (1.1)
@@ -187,12 +186,8 @@ PODS:
     - MBProgressHUD (~> 0.9)
     - "SDWebImage (!= 3.7.2, ~> 3.7)"
   - OpenUDID (1.0.0)
-  - PLPlayerKit (3.4.1):
-    - PLPlayerKit/iphoneos (= 3.4.1)
-  - PLPlayerKit/iphoneos (3.4.1)
   - RDVTabBarController (1.2.0)
   - Reachability (3.2)
-  - RongCloudIM/IMLib (2.9.13)
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
@@ -205,7 +200,6 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
-  - AgoraRtcEngine_iOS
   - BaiduMapKit
   - FDFullscreenPopGesture
   - FMDB
@@ -220,10 +214,8 @@ DEPENDENCIES:
   - mob_sharesdk/ShareSDKUI
   - MWPhotoBrowser
   - OpenUDID (~> 1.0.0)
-  - PLPlayerKit
   - RDVTabBarController
   - Reachability
-  - RongCloudIM/IMLib
   - SDWebImage
   - ZFPlayer/ControlView
   - ZFPlayer/KSYMediaPlayer
@@ -231,7 +223,6 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - AFNetworking
-    - AgoraRtcEngine_iOS
     - BaiduMapKit
     - DACircularProgress
     - FDFullscreenPopGesture
@@ -247,16 +238,13 @@ SPEC REPOS:
     - MOBFoundation
     - MWPhotoBrowser
     - OpenUDID
-    - PLPlayerKit
     - RDVTabBarController
     - Reachability
-    - RongCloudIM
     - SDWebImage
     - ZFPlayer
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  AgoraRtcEngine_iOS: be7eee187e0cf9bc67d67645cd0b75cd60b9503a
   BaiduMapKit: 63575d9236b4112c4ff76391df637f2a6dc1ada8
   DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
@@ -272,13 +260,11 @@ SPEC CHECKSUMS:
   MOBFoundation: b5ff4038ddb9a0f06b685b86408f905a10aa147c
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
-  PLPlayerKit: ebec9d70b66a95d1770b2dc5107fe2a469454a28
   RDVTabBarController: b6d63a7fc49b00568ba07255c6171edc737ad833
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
-  RongCloudIM: 886d08368d1ed47f42994be1895b1c2cf2125960
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
   ZFPlayer: 0e68a0ac28dbd8587418cc573e826305e1f5bb38
 
-PODFILE CHECKSUM: d8bc574349156698940368cd90c84800180d002b
+PODFILE CHECKSUM: 783196ebdac3ff6e57a855dc0d3a4e20d2aecb49
 
 COCOAPODS: 1.5.3

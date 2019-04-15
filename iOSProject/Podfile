@@ -17,14 +17,11 @@ target "iOSProject" do
     pod 'BaiduMapKit' #百度地图SDK
     pod 'MWPhotoBrowser' #图片加载
     pod 'RDVTabBarController' #tabbar
-    pod 'PLPlayerKit' #七牛播放器
 #    pod 'ZFPlayer'  #ijk播放器
     pod 'ZFPlayer/ControlView'
 #    pod 'ZFPlayer/AVPlayer'
 #    pod 'ZFPlayer/ijkplayer'
     pod 'ZFPlayer/KSYMediaPlayer'
     pod 'JKCategories'  #分类使用
-    pod 'AgoraRtcEngine_iOS' #声网播放器
-    pod 'RongCloudIM/IMLib' #融云即时通讯
     pod 'FDFullscreenPopGesture'
 end

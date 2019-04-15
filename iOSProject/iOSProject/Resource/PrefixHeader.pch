@@ -27,12 +27,10 @@
 #import "IQKeyboardManager.h"
 #import "FMDB.h"
 #import "AFNetworking.h"
-#import <AgoraRtcEngineKit/AgoraRtcEngineKit.h>
-#import <AgoraRtcEngineKit/AgoraLiveKit.h>
 #import <ZFPlayer/ZFPlayer.h>
 //#import <ZFPlayer/ZFPlayerControlView.h>
 //#import <ZFPlayer/ZFIJKPlayerManager.h>
-#import <RongIMLib/RCIMClient.h>
+
 
 
 #pragma mark -------------Vender第三方的文件
