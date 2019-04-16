@@ -35,10 +35,6 @@
 		7EB8099C225A464C00C4629F /* QDNews2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EB80999225A464C00C4629F /* QDNews2TableViewCell.xib */; };
 		7EB8099D225A464C00C4629F /* QDNews2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8099A225A464C00C4629F /* QDNews2TableViewCell.m */; };
 		7EB809A1225A465700C4629F /* QDDateSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8099F225A465700C4629F /* QDDateSelectedView.m */; };
-		7EE65B312254512B000E33AA /* QDMallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B2F2254512B000E33AA /* QDMallViewController.m */; };
-		7EE65B322254512B000E33AA /* QDMallViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B302254512B000E33AA /* QDMallViewController.xib */; };
-		7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE65B3422545194000E33AA /* QDCommunityViewController.m */; };
-		7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE65B3522545194000E33AA /* QDCommunityViewController.xib */; };
 		7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */; };
 		7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */; };
 		7EEAA0B1224B5FF1009B6617 /* QDPushRouteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0B0224B5FF1009B6617 /* QDPushRouteHelper.m */; };
@@ -52,9 +48,17 @@
 		7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D4224C6A9B009B6617 /* QDGuideViewController.xib */; };
 		7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0D5224C6A9B009B6617 /* QDGuideViewController.m */; };
 		7EEAA0DC224C7AAF009B6617 /* QDUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0DB224C7AAF009B6617 /* QDUserDefault.m */; };
+		7EF55C902265850D00641954 /* QDMessageMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF55C8E2265850D00641954 /* QDMessageMainViewController.m */; };
+		7EF55C912265850D00641954 /* QDMessageMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF55C8F2265850D00641954 /* QDMessageMainViewController.xib */; };
+		7EF55C9B2265B71000641954 /* QDOptionalMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF55C992265B71000641954 /* QDOptionalMainViewController.m */; };
+		7EF55C9C2265B71000641954 /* QDOptionalMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF55C9A2265B71000641954 /* QDOptionalMainViewController.xib */; };
+		7EF55CA02265B71E00641954 /* QDDealMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF55C9E2265B71E00641954 /* QDDealMainViewController.m */; };
+		7EF55CA12265B71E00641954 /* QDDealMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF55C9F2265B71E00641954 /* QDDealMainViewController.xib */; };
+		7EF55CA52265B72E00641954 /* QDNewsMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF55CA32265B72E00641954 /* QDNewsMainViewController.m */; };
+		7EF55CA62265B72E00641954 /* QDNewsMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF55CA42265B72E00641954 /* QDNewsMainViewController.xib */; };
+		7EF55CA82265BA9A00641954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF55CA72265BA9A00641954 /* Assets.xcassets */; };
 		7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA822238F44E000C5D64 /* AppDelegate.m */; };
 		7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8A2238F44E000C5D64 /* iOSProject.xcdatamodeld */; };
-		7EF6BA8E2238F44F000C5D64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8D2238F44F000C5D64 /* Assets.xcassets */; };
 		7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EF6BA8F2238F44F000C5D64 /* LaunchScreen.storyboard */; };
 		7EF6BA942238F44F000C5D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA932238F44F000C5D64 /* main.m */; };
 		7EF6BA9E2238F44F000C5D64 /* iOSProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF6BA9D2238F44F000C5D64 /* iOSProjectTests.m */; };
@@ -140,12 +144,6 @@
 		7EB8099B225A464C00C4629F /* QDNews2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNews2TableViewCell.h; sourceTree = "<group>"; };
 		7EB8099F225A465700C4629F /* QDDateSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDDateSelectedView.m; sourceTree = "<group>"; };
 		7EB809A0225A465700C4629F /* QDDateSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDDateSelectedView.h; sourceTree = "<group>"; };
-		7EE65B2E2254512B000E33AA /* QDMallViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMallViewController.h; sourceTree = "<group>"; };
-		7EE65B2F2254512B000E33AA /* QDMallViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDMallViewController.m; sourceTree = "<group>"; };
-		7EE65B302254512B000E33AA /* QDMallViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDMallViewController.xib; sourceTree = "<group>"; };
-		7EE65B3322545194000E33AA /* QDCommunityViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCommunityViewController.h; sourceTree = "<group>"; };
-		7EE65B3422545194000E33AA /* QDCommunityViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCommunityViewController.m; sourceTree = "<group>"; };
-		7EE65B3522545194000E33AA /* QDCommunityViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDCommunityViewController.xib; sourceTree = "<group>"; };
 		7EEAA0A8224B5F9A009B6617 /* QDLoginMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLoginMainViewController.h; sourceTree = "<group>"; };
 		7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLoginMainViewController.m; sourceTree = "<group>"; };
 		7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDLoginMainViewController.xib; sourceTree = "<group>"; };
@@ -167,11 +165,23 @@
 		7EEAA0D5224C6A9B009B6617 /* QDGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDGuideViewController.m; sourceTree = "<group>"; };
 		7EEAA0DA224C7AAF009B6617 /* QDUserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDUserDefault.h; sourceTree = "<group>"; };
 		7EEAA0DB224C7AAF009B6617 /* QDUserDefault.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDUserDefault.m; sourceTree = "<group>"; };
+		7EF55C8D2265850D00641954 /* QDMessageMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDMessageMainViewController.h; sourceTree = "<group>"; };
+		7EF55C8E2265850D00641954 /* QDMessageMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDMessageMainViewController.m; sourceTree = "<group>"; };
+		7EF55C8F2265850D00641954 /* QDMessageMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDMessageMainViewController.xib; sourceTree = "<group>"; };
+		7EF55C982265B71000641954 /* QDOptionalMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDOptionalMainViewController.h; sourceTree = "<group>"; };
+		7EF55C992265B71000641954 /* QDOptionalMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDOptionalMainViewController.m; sourceTree = "<group>"; };
+		7EF55C9A2265B71000641954 /* QDOptionalMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDOptionalMainViewController.xib; sourceTree = "<group>"; };
+		7EF55C9D2265B71E00641954 /* QDDealMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDDealMainViewController.h; sourceTree = "<group>"; };
+		7EF55C9E2265B71E00641954 /* QDDealMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDDealMainViewController.m; sourceTree = "<group>"; };
+		7EF55C9F2265B71E00641954 /* QDDealMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDDealMainViewController.xib; sourceTree = "<group>"; };
+		7EF55CA22265B72E00641954 /* QDNewsMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDNewsMainViewController.h; sourceTree = "<group>"; };
+		7EF55CA32265B72E00641954 /* QDNewsMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDNewsMainViewController.m; sourceTree = "<group>"; };
+		7EF55CA42265B72E00641954 /* QDNewsMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDNewsMainViewController.xib; sourceTree = "<group>"; };
+		7EF55CA72265BA9A00641954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF6BA7E2238F44E000C5D64 /* iOSProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF6BA812238F44E000C5D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EF6BA822238F44E000C5D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7EF6BA8B2238F44E000C5D64 /* iOSProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iOSProject.xcdatamodel; sourceTree = "<group>"; };
-		7EF6BA8D2238F44F000C5D64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EF6BA902238F44F000C5D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EF6BA922238F44F000C5D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EF6BA932238F44F000C5D64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -317,24 +327,6 @@
 			path = Date;
 			sourceTree = "<group>";
 		};
-		7EE65B382254519B000E33AA /* Community */ = {
-			isa = PBXGroup;
-			children = (
-				7EE65B39225451AB000E33AA /* Controller */,
-			);
-			path = Community;
-			sourceTree = "<group>";
-		};
-		7EE65B39225451AB000E33AA /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7EE65B3322545194000E33AA /* QDCommunityViewController.h */,
-				7EE65B3422545194000E33AA /* QDCommunityViewController.m */,
-				7EE65B3522545194000E33AA /* QDCommunityViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		7EEAA0AD224B5FA0009B6617 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -420,6 +412,81 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		7EF55C86226584D100641954 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55C87226584D100641954 /* Controller */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		7EF55C87226584D100641954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55C8D2265850D00641954 /* QDMessageMainViewController.h */,
+				7EF55C8E2265850D00641954 /* QDMessageMainViewController.m */,
+				7EF55C8F2265850D00641954 /* QDMessageMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7EF55C92226585FA00641954 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55C93226585FA00641954 /* Controller */,
+			);
+			name = News;
+			path = iOSProject/Main/News;
+			sourceTree = SOURCE_ROOT;
+		};
+		7EF55C93226585FA00641954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55CA22265B72E00641954 /* QDNewsMainViewController.h */,
+				7EF55CA32265B72E00641954 /* QDNewsMainViewController.m */,
+				7EF55CA42265B72E00641954 /* QDNewsMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7EF55C94226585FA00641954 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55C95226585FB00641954 /* Controller */,
+			);
+			name = Optional;
+			path = iOSProject/Main/Optional;
+			sourceTree = SOURCE_ROOT;
+		};
+		7EF55C95226585FB00641954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55C982265B71000641954 /* QDOptionalMainViewController.h */,
+				7EF55C992265B71000641954 /* QDOptionalMainViewController.m */,
+				7EF55C9A2265B71000641954 /* QDOptionalMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7EF55C96226585FB00641954 /* Deal */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55C97226585FB00641954 /* Controller */,
+			);
+			name = Deal;
+			path = iOSProject/Main/Deal;
+			sourceTree = SOURCE_ROOT;
+		};
+		7EF55C97226585FB00641954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7EF55C9D2265B71E00641954 /* QDDealMainViewController.h */,
+				7EF55C9E2265B71E00641954 /* QDDealMainViewController.m */,
+				7EF55C9F2265B71E00641954 /* QDDealMainViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		7EF6BA752238F44E000C5D64 = {
 			isa = PBXGroup;
 			children = (
@@ -478,9 +545,11 @@
 				7EEAA0B2224B5FF5009B6617 /* Push */,
 				7EEAA0C8224C685D009B6617 /* Guide */,
 				7EF6BAC3223905A8000C5D64 /* Home */,
-				7EF6BAC5223905BA000C5D64 /* Mall */,
-				7EE65B382254519B000E33AA /* Community */,
+				7EF55C94226585FA00641954 /* Optional */,
+				7EF55C96226585FB00641954 /* Deal */,
+				7EF55C92226585FA00641954 /* News */,
 				7EF6BAC4223905B3000C5D64 /* Mine */,
+				7EF55C86226584D100641954 /* Message */,
 				7EEAA0AD224B5FA0009B6617 /* Login */,
 			);
 			path = Main;
@@ -502,9 +571,9 @@
 		7EF6BAB82238FD16000C5D64 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				7EF55CA72265BA9A00641954 /* Assets.xcassets */,
 				7EF6BA812238F44E000C5D64 /* AppDelegate.h */,
 				7EF6BA822238F44E000C5D64 /* AppDelegate.m */,
-				7EF6BA8D2238F44F000C5D64 /* Assets.xcassets */,
 				7EF6BA8F2238F44F000C5D64 /* LaunchScreen.storyboard */,
 				7EF6BA922238F44F000C5D64 /* Info.plist */,
 				7EF6BA932238F44F000C5D64 /* main.m */,
@@ -598,30 +667,12 @@
 			path = Mine;
 			sourceTree = "<group>";
 		};
-		7EF6BAC5223905BA000C5D64 /* Mall */ = {
-			isa = PBXGroup;
-			children = (
-				7EF6BADD2239074C000C5D64 /* Controller */,
-			);
-			path = Mall;
-			sourceTree = "<group>";
-		};
 		7EF6BADC2239073C000C5D64 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				7EF6BAD62239072E000C5D64 /* QDMineViewController.h */,
 				7EF6BAD72239072E000C5D64 /* QDMineViewController.m */,
 				7EF6BAD82239072E000C5D64 /* QDMineViewController.xib */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
-		7EF6BADD2239074C000C5D64 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				7EE65B2E2254512B000E33AA /* QDMallViewController.h */,
-				7EE65B2F2254512B000E33AA /* QDMallViewController.m */,
-				7EE65B302254512B000E33AA /* QDMallViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -828,20 +879,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE65B322254512B000E33AA /* QDMallViewController.xib in Resources */,
+				7EF55CA12265B71E00641954 /* QDDealMainViewController.xib in Resources */,
+				7EF55C912265850D00641954 /* QDMessageMainViewController.xib in Resources */,
+				7EF55CA62265B72E00641954 /* QDNewsMainViewController.xib in Resources */,
+				7EF55CA82265BA9A00641954 /* Assets.xcassets in Resources */,
 				7EEAA0BD224B684F009B6617 /* QDBaseTableViewCell.xib in Resources */,
 				7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */,
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
+				7EF55C9C2265B71000641954 /* QDOptionalMainViewController.xib in Resources */,
 				7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */,
 				7EB8098F225A355500C4629F /* QDNews1TableViewCell.xib in Resources */,
 				7E8E3720225A5C0B007EC2F4 /* QDNews3TableViewCell.xib in Resources */,
-				7EE65B3722545194000E33AA /* QDCommunityViewController.xib in Resources */,
 				7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */,
 				7E8E3721225A5C0B007EC2F4 /* QDNews4TableViewCell.xib in Resources */,
 				7E49884622421FC200FC87A0 /* Localizable.strings in Resources */,
 				7EEAA0B7224B604B009B6617 /* QDBaseWebViewViewController.xib in Resources */,
-				7EF6BA8E2238F44F000C5D64 /* Assets.xcassets in Resources */,
 				7E49884022421EBB00FC87A0 /* InfoPlist.strings in Resources */,
 				7E498830224218ED00FC87A0 /* QDHomeViewController.xib in Resources */,
 				7EB8099C225A464C00C4629F /* QDNews2TableViewCell.xib in Resources */,
@@ -922,6 +975,7 @@
 			files = (
 				7EEAA0B6224B604B009B6617 /* QDBaseWebViewViewController.m in Sources */,
 				7EEAA0D6224C6A9B009B6617 /* QDADViewController.m in Sources */,
+				7EF55C9B2265B71000641954 /* QDOptionalMainViewController.m in Sources */,
 				7EEAA0C1224B686A009B6617 /* QDBaseModel.m in Sources */,
 				7EF6BA832238F44E000C5D64 /* AppDelegate.m in Sources */,
 				7EB8097C2259D71C00C4629F /* QDBaseView.m in Sources */,
@@ -932,6 +986,7 @@
 				7EF6BB07223B4FD9000C5D64 /* QDCountDownButton.m in Sources */,
 				7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */,
 				7EEAA0BC224B684F009B6617 /* QDBaseTableViewCell.m in Sources */,
+				7EF55C902265850D00641954 /* QDMessageMainViewController.m in Sources */,
 				7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */,
 				7EF6BAEA223922AA000C5D64 /* UIColor+QDExtension.m in Sources */,
 				7EF6BAE72239212F000C5D64 /* UIImage+QDExtension.m in Sources */,
@@ -943,17 +998,17 @@
 				7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */,
 				7EB8099D225A464C00C4629F /* QDNews2TableViewCell.m in Sources */,
 				7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */,
+				7EF55CA02265B71E00641954 /* QDDealMainViewController.m in Sources */,
 				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
 				7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */,
 				7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */,
-				7EE65B312254512B000E33AA /* QDMallViewController.m in Sources */,
 				7EF6BB01223A8A48000C5D64 /* UITextField+QDExtension.m in Sources */,
 				7EB809A1225A465700C4629F /* QDDateSelectedView.m in Sources */,
 				7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */,
 				7EF6BAFE223A882D000C5D64 /* UITextView+QDExtension.m in Sources */,
-				7EE65B3622545194000E33AA /* QDCommunityViewController.m in Sources */,
 				7E8E371F225A5C0B007EC2F4 /* QDNews4TableViewCell.m in Sources */,
+				7EF55CA52265B72E00641954 /* QDNewsMainViewController.m in Sources */,
 				7EB809792259D6F900C4629F /* QDSelectedView.m in Sources */,
 				7EF6BAF322394BFE000C5D64 /* CommonTools.m in Sources */,
 				7EF6BB04223A8AD6000C5D64 /* UIButton+QDExtension.m in Sources */,
@@ -1164,7 +1219,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1187,7 +1245,10 @@
 				GCC_PREFIX_HEADER = "$(SRCROOT)/iOSProject/Resource/PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/iOSProject/Resource/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -1201,7 +1262,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1216,7 +1281,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1230,7 +1299,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1244,7 +1317,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2J5FQ2M7G4;
 				INFOPLIST_FILE = iOSProjectUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbbdsqd.iOSProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";

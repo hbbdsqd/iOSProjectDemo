@@ -28,6 +28,12 @@
 #import "FMDB.h"
 #import "AFNetworking.h"
 #import <ZFPlayer/ZFPlayer.h>
+#import <JKCategories/JKUIKit.h>
+#import <JKCategories/JKFoundation.h>
+#import <JKCategories/JKCoreData.h>
+#import <JKCategories/JKCoreLocation.h>
+#import <JKCategories/JKMapKit.h>
+#import <JKCategories/JKQuartzCore.h>
 //#import <ZFPlayer/ZFPlayerControlView.h>
 //#import <ZFPlayer/ZFIJKPlayerManager.h>
 
@@ -45,19 +51,15 @@
 #import "QDBaseViewController.h"
 #import "QDBaseNavViewController.h"
 #import "QDHomeViewController.h"
-#import "QDMallViewController.h"
+#import "QDOptionalMainViewController.h"
+#import "QDDealMainViewController.h"
+#import "QDNewsMainViewController.h"
 #import "QDMineViewController.h"
 #import "CommonTools.h"
 #import "QDBaseWebViewViewController.h"
 #import "AppDelegate.h"
 #import "QDUserDefault.h"
 #import "QDPushRouteHelper.h"
-#import <JKCategories/JKUIKit.h>
-#import <JKCategories/JKFoundation.h>
-#import <JKCategories/JKCoreData.h>
-#import <JKCategories/JKCoreLocation.h>
-#import <JKCategories/JKMapKit.h>
-#import <JKCategories/JKQuartzCore.h>
 
 
 #pragma mark -------------分类

@@ -23,13 +23,19 @@
     QDHomeViewController *firstViewController = [[QDHomeViewController alloc] init];
     QDBaseNavViewController *firstNavigationController = [[QDBaseNavViewController alloc]initWithRootViewController:firstViewController];
     
-    QDMallViewController *secondViewController = [[QDMallViewController alloc] init];
+    QDOptionalMainViewController *secondViewController = [[QDOptionalMainViewController alloc] init];
     QDBaseNavViewController *secondNavigationController = [[QDBaseNavViewController alloc]initWithRootViewController:secondViewController];
     
-    QDMineViewController *thirdViewController = [[QDMineViewController alloc] init];
+    QDDealMainViewController *thirdViewController = [[QDDealMainViewController alloc] init];
     QDBaseNavViewController *thirdNavigationController = [[QDBaseNavViewController alloc]initWithRootViewController:thirdViewController];
     
-    [self setViewControllers:@[firstNavigationController, secondNavigationController,thirdNavigationController]];
+    QDNewsMainViewController *fouthViewController = [[QDNewsMainViewController alloc] init];
+    QDBaseNavViewController *fouthNavigationController = [[QDBaseNavViewController alloc]initWithRootViewController:fouthViewController];
+    
+    QDMineViewController *fifthViewController = [[QDMineViewController alloc] init];
+    QDBaseNavViewController *fifthNavigationController = [[QDBaseNavViewController alloc]initWithRootViewController:fifthViewController];
+    
+    [self setViewControllers:@[firstNavigationController, secondNavigationController,thirdNavigationController,fouthNavigationController,fifthNavigationController]];
     
     [self customizeTabBarForController];
 }
@@ -37,8 +43,8 @@
 - (void)customizeTabBarForController {
     UIImage *finishedImage = [UIImage imageNamed:@"tabbar_selected_background"];
     UIImage *unfinishedImage = [UIImage imageNamed:@"tabbar_normal_background"];
-    NSArray *tabBarItemImages = @[@"home", @"message", @"mine"];
-    NSArray *tabBarItemTitles = @[@"home", @"message", @"mine"];
+    NSArray *tabBarItemImages = @[@"home", @"optional", @"deal", @"news", @"mine"];
+    NSArray *tabBarItemTitles = @[@"首页", @"自选", @"交易", @"资讯", @"我的"];
     NSInteger index = 0;
     for (RDVTabBarItem *item in [[self tabBar] items]) {
         [item setBackgroundSelectedImage:finishedImage withUnselectedImage:unfinishedImage];
@@ -46,6 +52,11 @@
         UIImage *unselectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@_normal",[tabBarItemImages objectAtIndex:index]]];
         [item setFinishedSelectedImage:selectedimage withFinishedUnselectedImage:unselectedimage];
         item.title = [tabBarItemTitles objectAtIndex:index];
+        NSDictionary *tabBarTitleUnselectedDic = @{NSForegroundColorAttributeName:QDGetColor(@"707070"),NSFontAttributeName:[UIFont systemFontOfSize:14]};
+        NSDictionary *tabBarTitleSelectedDic = @{NSForegroundColorAttributeName:QDGetColor(@"d81e06"),NSFontAttributeName:[UIFont systemFontOfSize:14]};
+        //修改tabberItem的title颜色
+        item.selectedTitleAttributes = tabBarTitleSelectedDic;
+        item.unselectedTitleAttributes = tabBarTitleUnselectedDic;
         index++;
     }
 }
