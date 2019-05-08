@@ -52,8 +52,8 @@
         UIImage *unselectedimage = [UIImage imageNamed:[NSString stringWithFormat:@"%@_normal",[tabBarItemImages objectAtIndex:index]]];
         [item setFinishedSelectedImage:selectedimage withFinishedUnselectedImage:unselectedimage];
         item.title = [tabBarItemTitles objectAtIndex:index];
-        NSDictionary *tabBarTitleUnselectedDic = @{NSForegroundColorAttributeName:QDGetColor(@"707070"),NSFontAttributeName:[UIFont systemFontOfSize:14]};
-        NSDictionary *tabBarTitleSelectedDic = @{NSForegroundColorAttributeName:QDGetColor(@"d81e06"),NSFontAttributeName:[UIFont systemFontOfSize:14]};
+        NSDictionary *tabBarTitleUnselectedDic = @{NSForegroundColorAttributeName:QDGetColor(@"707070"),NSFontAttributeName:[UIFont systemFontOfSize:12]};
+        NSDictionary *tabBarTitleSelectedDic = @{NSForegroundColorAttributeName:QDGetColor(@"d81e06"),NSFontAttributeName:[UIFont systemFontOfSize:12]};
         //修改tabberItem的title颜色
         item.selectedTitleAttributes = tabBarTitleSelectedDic;
         item.unselectedTitleAttributes = tabBarTitleUnselectedDic;

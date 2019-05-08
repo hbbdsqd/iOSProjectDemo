@@ -23,8 +23,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     [self.window makeKeyAndVisible];
-//    [self loadLaunchVC];
-    [self loadADVC];
+    [self loadLaunchVC];
+//    [self loadADVC];
     return YES;
 }
 

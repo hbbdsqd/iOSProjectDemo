@@ -35,6 +35,12 @@
 		7EB8099C225A464C00C4629F /* QDNews2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EB80999225A464C00C4629F /* QDNews2TableViewCell.xib */; };
 		7EB8099D225A464C00C4629F /* QDNews2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8099A225A464C00C4629F /* QDNews2TableViewCell.m */; };
 		7EB809A1225A465700C4629F /* QDDateSelectedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EB8099F225A465700C4629F /* QDDateSelectedView.m */; };
+		7EE5DA6B228332A4008C4100 /* QDHomeRow0TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE5DA69228332A4008C4100 /* QDHomeRow0TableViewCell.m */; };
+		7EE5DA6C228332A4008C4100 /* QDHomeRow0TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5DA6A228332A4008C4100 /* QDHomeRow0TableViewCell.xib */; };
+		7EE5DA7022833E97008C4100 /* QDHomeRow1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE5DA6E22833E97008C4100 /* QDHomeRow1TableViewCell.m */; };
+		7EE5DA7122833E97008C4100 /* QDHomeRow1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5DA6F22833E97008C4100 /* QDHomeRow1TableViewCell.xib */; };
+		7EE5DA75228344CD008C4100 /* QDHomeRow2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EE5DA73228344CD008C4100 /* QDHomeRow2TableViewCell.m */; };
+		7EE5DA76228344CD008C4100 /* QDHomeRow2TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE5DA74228344CD008C4100 /* QDHomeRow2TableViewCell.xib */; };
 		7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */; };
 		7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */; };
 		7EEAA0B1224B5FF1009B6617 /* QDPushRouteHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EEAA0B0224B5FF1009B6617 /* QDPushRouteHelper.m */; };
@@ -144,6 +150,15 @@
 		7EB8099B225A464C00C4629F /* QDNews2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNews2TableViewCell.h; sourceTree = "<group>"; };
 		7EB8099F225A465700C4629F /* QDDateSelectedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDDateSelectedView.m; sourceTree = "<group>"; };
 		7EB809A0225A465700C4629F /* QDDateSelectedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDDateSelectedView.h; sourceTree = "<group>"; };
+		7EE5DA68228332A4008C4100 /* QDHomeRow0TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDHomeRow0TableViewCell.h; sourceTree = "<group>"; };
+		7EE5DA69228332A4008C4100 /* QDHomeRow0TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDHomeRow0TableViewCell.m; sourceTree = "<group>"; };
+		7EE5DA6A228332A4008C4100 /* QDHomeRow0TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDHomeRow0TableViewCell.xib; sourceTree = "<group>"; };
+		7EE5DA6D22833E97008C4100 /* QDHomeRow1TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDHomeRow1TableViewCell.h; sourceTree = "<group>"; };
+		7EE5DA6E22833E97008C4100 /* QDHomeRow1TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDHomeRow1TableViewCell.m; sourceTree = "<group>"; };
+		7EE5DA6F22833E97008C4100 /* QDHomeRow1TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDHomeRow1TableViewCell.xib; sourceTree = "<group>"; };
+		7EE5DA72228344CD008C4100 /* QDHomeRow2TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDHomeRow2TableViewCell.h; sourceTree = "<group>"; };
+		7EE5DA73228344CD008C4100 /* QDHomeRow2TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDHomeRow2TableViewCell.m; sourceTree = "<group>"; };
+		7EE5DA74228344CD008C4100 /* QDHomeRow2TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDHomeRow2TableViewCell.xib; sourceTree = "<group>"; };
 		7EEAA0A8224B5F9A009B6617 /* QDLoginMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDLoginMainViewController.h; sourceTree = "<group>"; };
 		7EEAA0A9224B5F9A009B6617 /* QDLoginMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDLoginMainViewController.m; sourceTree = "<group>"; };
 		7EEAA0AA224B5F9A009B6617 /* QDLoginMainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDLoginMainViewController.xib; sourceTree = "<group>"; };
@@ -412,6 +427,22 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		7EF4A8242283312500B956DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7EE5DA68228332A4008C4100 /* QDHomeRow0TableViewCell.h */,
+				7EE5DA69228332A4008C4100 /* QDHomeRow0TableViewCell.m */,
+				7EE5DA6A228332A4008C4100 /* QDHomeRow0TableViewCell.xib */,
+				7EE5DA6D22833E97008C4100 /* QDHomeRow1TableViewCell.h */,
+				7EE5DA6E22833E97008C4100 /* QDHomeRow1TableViewCell.m */,
+				7EE5DA6F22833E97008C4100 /* QDHomeRow1TableViewCell.xib */,
+				7EE5DA72228344CD008C4100 /* QDHomeRow2TableViewCell.h */,
+				7EE5DA73228344CD008C4100 /* QDHomeRow2TableViewCell.m */,
+				7EE5DA74228344CD008C4100 /* QDHomeRow2TableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		7EF55C86226584D100641954 /* Message */ = {
 			isa = PBXGroup;
 			children = (
@@ -655,6 +686,7 @@
 			isa = PBXGroup;
 			children = (
 				7EF6BADE2239075F000C5D64 /* Controller */,
+				7EF4A8242283312500B956DC /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -884,6 +916,7 @@
 				7EF55CA62265B72E00641954 /* QDNewsMainViewController.xib in Resources */,
 				7EF55CA82265BA9A00641954 /* Assets.xcassets in Resources */,
 				7EEAA0BD224B684F009B6617 /* QDBaseTableViewCell.xib in Resources */,
+				7EE5DA6C228332A4008C4100 /* QDHomeRow0TableViewCell.xib in Resources */,
 				7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */,
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
@@ -891,7 +924,9 @@
 				7EEAA0D7224C6A9B009B6617 /* QDADViewController.xib in Resources */,
 				7EB8098F225A355500C4629F /* QDNews1TableViewCell.xib in Resources */,
 				7E8E3720225A5C0B007EC2F4 /* QDNews3TableViewCell.xib in Resources */,
+				7EE5DA7122833E97008C4100 /* QDHomeRow1TableViewCell.xib in Resources */,
 				7EEAA0AC224B5F9A009B6617 /* QDLoginMainViewController.xib in Resources */,
+				7EE5DA76228344CD008C4100 /* QDHomeRow2TableViewCell.xib in Resources */,
 				7E8E3721225A5C0B007EC2F4 /* QDNews4TableViewCell.xib in Resources */,
 				7E49884622421FC200FC87A0 /* Localizable.strings in Resources */,
 				7EEAA0B7224B604B009B6617 /* QDBaseWebViewViewController.xib in Resources */,
@@ -985,6 +1020,7 @@
 				7E8E3722225A5C0B007EC2F4 /* QDNews3TableViewCell.m in Sources */,
 				7EF6BB07223B4FD9000C5D64 /* QDCountDownButton.m in Sources */,
 				7EF6BACF22390712000C5D64 /* QDHomeViewController.m in Sources */,
+				7EE5DA75228344CD008C4100 /* QDHomeRow2TableViewCell.m in Sources */,
 				7EEAA0BC224B684F009B6617 /* QDBaseTableViewCell.m in Sources */,
 				7EF55C902265850D00641954 /* QDMessageMainViewController.m in Sources */,
 				7EF6BAD92239072E000C5D64 /* QDMineViewController.m in Sources */,
@@ -995,6 +1031,7 @@
 				7EEAA0AB224B5F9A009B6617 /* QDLoginMainViewController.m in Sources */,
 				7EEAA0DC224C7AAF009B6617 /* QDUserDefault.m in Sources */,
 				7EB8098E225A355500C4629F /* QDNews1TableViewCell.m in Sources */,
+				7EE5DA7022833E97008C4100 /* QDHomeRow1TableViewCell.m in Sources */,
 				7EF6BAFB223A802B000C5D64 /* NSDictionary+QDExtension.m in Sources */,
 				7EB8099D225A464C00C4629F /* QDNews2TableViewCell.m in Sources */,
 				7EEAA0D9224C6A9B009B6617 /* QDGuideViewController.m in Sources */,
@@ -1004,6 +1041,7 @@
 				7EF6BAF8223952EE000C5D64 /* MBProgressHUD+QDExtension.m in Sources */,
 				7EF6BACB223906ED000C5D64 /* QDBaseNavViewController.m in Sources */,
 				7EF6BB01223A8A48000C5D64 /* UITextField+QDExtension.m in Sources */,
+				7EE5DA6B228332A4008C4100 /* QDHomeRow0TableViewCell.m in Sources */,
 				7EB809A1225A465700C4629F /* QDDateSelectedView.m in Sources */,
 				7EF6BA8C2238F44E000C5D64 /* iOSProject.xcdatamodeld in Sources */,
 				7EF6BAFE223A882D000C5D64 /* UITextView+QDExtension.m in Sources */,

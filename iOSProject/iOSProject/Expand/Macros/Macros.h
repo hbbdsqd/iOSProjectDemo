@@ -20,6 +20,7 @@
 
 #pragma mark - 色值
 #define QDColorWhite [UIColor whiteColor]
+#define MainBackGroundColor [UIColor colorWithHexString:@"F5F6F8"]
 #define QDGetColor(colorStr) [UIColor colorWithHexString:colorStr]
 #define QDColorBtnDisSelectedColor [UIColor colorWithHexString:@"D2D5DB"]
 #define QDColorMain QDGetColor(@"57818B")

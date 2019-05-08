@@ -50,6 +50,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 #pragma mark ---------创建导航条左侧和右侧按钮根据文字和图片可自定义
+
+- (void)creatLeftBtnOfSearch;
+
 - (void)creatLeftBtnOfCustomWithTitle:(NSString *)title;
 
 - (void)creatLeftBtnOfCustomWithTitle:(NSString *)title textColor:(UIColor *)textColor;

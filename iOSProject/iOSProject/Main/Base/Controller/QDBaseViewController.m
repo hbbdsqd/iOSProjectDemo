@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = MainBackGroundColor;
     self.navigationController.navigationBar.barStyle = UIBarStyleDefault;
     [self setNeedsStatusBarAppearanceUpdate];
     if (@available(iOS 11.0, *)) {
@@ -113,6 +114,18 @@
 }
 - (void)returnClick{
     [self.navigationController popViewControllerAnimated:YES];
+}
+
+- (void)creatLeftBtnOfSearch{
+    UIButton *button = [[UIButton alloc] init];
+    button.frame = CGRectMake(0, 0, SCREEN_WIDTH - 80, 30);
+    button.backgroundColor = QDGetColor(@"F3F3F3");
+    button.layer.cornerRadius = button.height * 0.5;
+    [button setTitle:@"输入股票代码，拼音简称搜索" forState:UIControlStateNormal];
+    button.titleLabel.font = QDGetFont(12);
+    [button setTitleColor:QDGetColor(@"BDBDBD") forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(leftBtnClcik) forControlEvents:UIControlEventTouchUpInside];
+    self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:button];
 }
 
 - (void)creatLeftBtnOfCustomWithTitle:(NSString *)title{
