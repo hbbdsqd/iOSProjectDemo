@@ -47,7 +47,9 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    
+    QDBaseWebViewViewController * webVC = [[QDBaseWebViewViewController alloc]init];
+    webVC.urlStr = @"https://mbd.baidu.com/newspage/data/landingsuper?context=%7B%22nid%22%3A%22news_9324846261160920123%22%7D&n_type=0&p_from=1";
+    [self.navigationController pushViewController:webVC animated:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated{

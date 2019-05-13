@@ -11,6 +11,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface QDBaseTableViewCell : UITableViewCell
+
+
+@property (nonatomic, copy) void(^buttonClickBlock)(NSInteger index);
+
 - (void)configWithDic:(NSDictionary *)dic;
 - (void)configWithArray:(NSArray *)array;
 - (void)configWithModel:(id)baseModel;
