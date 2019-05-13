@@ -22,6 +22,6 @@ target "iOSProject" do
 #    pod 'ZFPlayer/AVPlayer'
 #    pod 'ZFPlayer/ijkplayer'
     pod 'ZFPlayer/KSYMediaPlayer'
-    pod 'JKCategories'  #分类使用
-    pod 'FDFullscreenPopGesture'
+#    pod 'JKCategories'  #分类使用
+#    pod 'FDFullscreenPopGesture'
 end

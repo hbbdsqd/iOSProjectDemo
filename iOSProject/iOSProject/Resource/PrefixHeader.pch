@@ -28,12 +28,6 @@
 #import "FMDB.h"
 #import "AFNetworking.h"
 #import <ZFPlayer/ZFPlayer.h>
-#import <JKCategories/JKUIKit.h>
-#import <JKCategories/JKFoundation.h>
-#import <JKCategories/JKCoreData.h>
-#import <JKCategories/JKCoreLocation.h>
-#import <JKCategories/JKMapKit.h>
-#import <JKCategories/JKQuartzCore.h>
 //#import <ZFPlayer/ZFPlayerControlView.h>
 //#import <ZFPlayer/ZFIJKPlayerManager.h>
 
@@ -71,6 +65,7 @@
 #import "UIButton+QDExtension.h"
 #import "NSDictionary+QDExtension.h"
 #import "UITextField+QDExtension.h"
+#import "NSString+Size.h"
 
 #pragma mark ------------objective-c
 #import <objc/runtime.h>
