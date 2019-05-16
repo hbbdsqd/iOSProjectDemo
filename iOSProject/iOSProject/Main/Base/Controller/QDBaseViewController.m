@@ -147,7 +147,7 @@
 - (void)creatRightBtnOfCustomWithTitle:(NSString *)title{
     UIButton * btn = [UIButton buttonWithType:UIButtonTypeCustom];
     [btn setTitle:title forState:UIControlStateNormal];
-    [btn setTitleColor:QDColorMain forState:UIControlStateNormal];
+    [btn setTitleColor:QDNavColorMain forState:UIControlStateNormal];
     btn.titleLabel.font = [UIFont systemFontOfSize:16];
     [btn sizeToFit];
     [btn addTarget:self action:@selector(rightBtnClcik) forControlEvents:UIControlEventTouchUpInside];

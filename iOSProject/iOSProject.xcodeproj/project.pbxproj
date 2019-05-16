@@ -229,6 +229,10 @@
 		7E5D3F8C22847C2000B5F9E8 /* UIView+Constraints.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D3F1822847C2000B5F9E8 /* UIView+Constraints.m */; };
 		7E5D3F8D22847C2000B5F9E8 /* UIView+Screenshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D3F1A22847C2000B5F9E8 /* UIView+Screenshot.m */; };
 		7E5D3F8E22847C2000B5F9E8 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5D3F1B22847C2000B5F9E8 /* UIView+Toast.m */; };
+		7E5E53C8228D40170078FA72 /* QDCountHeaderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E53C6228D40170078FA72 /* QDCountHeaderTableViewCell.m */; };
+		7E5E53C9228D40170078FA72 /* QDCountHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E53C7228D40170078FA72 /* QDCountHeaderTableViewCell.xib */; };
+		7E5E53CD228D41D00078FA72 /* QDTwoValuesTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5E53CB228D41D00078FA72 /* QDTwoValuesTableViewCell.m */; };
+		7E5E53CE228D41D00078FA72 /* QDTwoValuesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5E53CC228D41D00078FA72 /* QDTwoValuesTableViewCell.xib */; };
 		7E6779A4223F94CA008F3334 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779A3223F94CA008F3334 /* VideoToolbox.framework */; };
 		7E6779A6223F94D1008F3334 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779A5223F94D1008F3334 /* UIKit.framework */; };
 		7E6779A8223F94D7008F3334 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6779A7223F94D7008F3334 /* QuartzCore.framework */; };
@@ -783,6 +787,12 @@
 		7E5D3F1922847C2000B5F9E8 /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
 		7E5D3F1A22847C2000B5F9E8 /* UIView+Screenshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Screenshot.m"; sourceTree = "<group>"; };
 		7E5D3F1B22847C2000B5F9E8 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		7E5E53C5228D40170078FA72 /* QDCountHeaderTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDCountHeaderTableViewCell.h; sourceTree = "<group>"; };
+		7E5E53C6228D40170078FA72 /* QDCountHeaderTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDCountHeaderTableViewCell.m; sourceTree = "<group>"; };
+		7E5E53C7228D40170078FA72 /* QDCountHeaderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDCountHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		7E5E53CA228D41D00078FA72 /* QDTwoValuesTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QDTwoValuesTableViewCell.h; sourceTree = "<group>"; };
+		7E5E53CB228D41D00078FA72 /* QDTwoValuesTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QDTwoValuesTableViewCell.m; sourceTree = "<group>"; };
+		7E5E53CC228D41D00078FA72 /* QDTwoValuesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QDTwoValuesTableViewCell.xib; sourceTree = "<group>"; };
 		7E6779A3223F94CA008F3334 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		7E6779A5223F94D1008F3334 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7E6779A7223F94D7008F3334 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -1002,6 +1012,9 @@
 				7EB6AF1B2289C44900AEB543 /* QDPointListTableViewCell.h */,
 				7EB6AF1C2289C44900AEB543 /* QDPointListTableViewCell.m */,
 				7EB6AF1D2289C44900AEB543 /* QDPointListTableViewCell.xib */,
+				7E5E53C5228D40170078FA72 /* QDCountHeaderTableViewCell.h */,
+				7E5E53C6228D40170078FA72 /* QDCountHeaderTableViewCell.m */,
+				7E5E53C7228D40170078FA72 /* QDCountHeaderTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1934,6 +1947,9 @@
 				7E8E3719225A5C0A007EC2F4 /* QDNews4TableViewCell.h */,
 				7E8E371A225A5C0A007EC2F4 /* QDNews4TableViewCell.m */,
 				7E8E371C225A5C0A007EC2F4 /* QDNews4TableViewCell.xib */,
+				7E5E53CA228D41D00078FA72 /* QDTwoValuesTableViewCell.h */,
+				7E5E53CB228D41D00078FA72 /* QDTwoValuesTableViewCell.m */,
+				7E5E53CC228D41D00078FA72 /* QDTwoValuesTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -2586,6 +2602,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EF55CA12265B71E00641954 /* QDDealMainViewController.xib in Resources */,
+				7E5E53CE228D41D00078FA72 /* QDTwoValuesTableViewCell.xib in Resources */,
 				7EF55C912265850D00641954 /* QDMessageMainViewController.xib in Resources */,
 				7EF55CA62265B72E00641954 /* QDNewsMainViewController.xib in Resources */,
 				7E08DE1322871E1C00526F5B /* QDMineHeaderTableViewCell.xib in Resources */,
@@ -2598,6 +2615,7 @@
 				7EB6AF1F2289C44900AEB543 /* QDPointListTableViewCell.xib in Resources */,
 				7E5D3DEC22847BFD00B5F9E8 /* NSDateTimeAgo.bundle in Resources */,
 				7EEAA0D8224C6A9B009B6617 /* QDGuideViewController.xib in Resources */,
+				7E5E53C9228D40170078FA72 /* QDCountHeaderTableViewCell.xib in Resources */,
 				7EF6BADA2239072E000C5D64 /* QDMineViewController.xib in Resources */,
 				7EF6BA912238F44F000C5D64 /* LaunchScreen.storyboard in Resources */,
 				7EF55C9C2265B71000641954 /* QDOptionalMainViewController.xib in Resources */,
@@ -2784,6 +2802,7 @@
 				7ED78A4D2289B937005072D8 /* QDPointsMainViewController.m in Sources */,
 				7E5D3DB722847BFD00B5F9E8 /* NSString+UrlEncode.m in Sources */,
 				7E5D3F8122847C2000B5F9E8 /* UIView+CustomBorder.m in Sources */,
+				7E5E53C8228D40170078FA72 /* QDCountHeaderTableViewCell.m in Sources */,
 				7E5D3DBF22847BFD00B5F9E8 /* NSObject+MKBlockTimer.m in Sources */,
 				7E5D3E1622847C0E00B5F9E8 /* CAAnimation+EasingEquations.m in Sources */,
 				7E5D3F5322847C2000B5F9E8 /* UIApplication+KeyboardFrame.m in Sources */,
@@ -2859,6 +2878,7 @@
 				7E5D3F6222847C2000B5F9E8 /* UIButton+MiddleAligning.m in Sources */,
 				7E5D3F8A22847C2000B5F9E8 /* UIView+Visuals.m in Sources */,
 				7E08DE1822871E3700526F5B /* QDMineTableViewCell.m in Sources */,
+				7E5E53CD228D41D00078FA72 /* QDTwoValuesTableViewCell.m in Sources */,
 				7EF6BAF0223925E8000C5D64 /* NSString+QDExtension.m in Sources */,
 				7E5D3E1522847C0E00B5F9E8 /* CAAnimation+Blocks.m in Sources */,
 				7EF6BAE122390806000C5D64 /* QDTabBarViewController.m in Sources */,
